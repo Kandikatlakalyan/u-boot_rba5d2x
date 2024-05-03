@@ -1,0 +1,1263 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BANK_SZ	pca953x_gpio.c	50;"	d	file:
+BIT_PER_GPIO	hsdk-creg-gpio.c	24;"	d	file:
+CONFIG_GPIO	tegra_gpio.c	/^static const int CONFIG_GPIO = 1;$/;"	v	file:
+CONFIG_MPC83XX_GPIO_0_INIT_DIRECTION	mpc83xx_gpio.c	12;"	d	file:
+CONFIG_MPC83XX_GPIO_0_INIT_OPEN_DRAIN	mpc83xx_gpio.c	18;"	d	file:
+CONFIG_MPC83XX_GPIO_0_INIT_VALUE	mpc83xx_gpio.c	24;"	d	file:
+CONFIG_MPC83XX_GPIO_1_INIT_DIRECTION	mpc83xx_gpio.c	15;"	d	file:
+CONFIG_MPC83XX_GPIO_1_INIT_OPEN_DRAIN	mpc83xx_gpio.c	21;"	d	file:
+CONFIG_MPC83XX_GPIO_1_INIT_VALUE	mpc83xx_gpio.c	27;"	d	file:
+CONFIG_SFIO	tegra_gpio.c	/^static const int CONFIG_SFIO = 0;$/;"	v	file:
+CONFIG_SYS_I2C_PCA953X_ADDR	pca953x.c	17;"	d	file:
+CON_MASK	s5p_gpio.c	20;"	d	file:
+CON_SFR	s5p_gpio.c	21;"	d	file:
+CON_SFR_UNSHIFT	s5p_gpio.c	22;"	d	file:
+DAT_MASK	s5p_gpio.c	24;"	d	file:
+DAT_SET	s5p_gpio.c	25;"	d	file:
+DB8500_GPIO_AFSLA	db8500_gpio.c	49;"	d	file:
+DB8500_GPIO_AFSLB	db8500_gpio.c	50;"	d	file:
+DB8500_GPIO_DAT	db8500_gpio.c	41;"	d	file:
+DB8500_GPIO_DATC	db8500_gpio.c	43;"	d	file:
+DB8500_GPIO_DATS	db8500_gpio.c	42;"	d	file:
+DB8500_GPIO_DIR	db8500_gpio.c	45;"	d	file:
+DB8500_GPIO_DIRC	db8500_gpio.c	47;"	d	file:
+DB8500_GPIO_DIRS	db8500_gpio.c	46;"	d	file:
+DB8500_GPIO_FIMSC	db8500_gpio.c	53;"	d	file:
+DB8500_GPIO_FWIMSC	db8500_gpio.c	57;"	d	file:
+DB8500_GPIO_IC	db8500_gpio.c	55;"	d	file:
+DB8500_GPIO_IS	db8500_gpio.c	54;"	d	file:
+DB8500_GPIO_PDIS	db8500_gpio.c	44;"	d	file:
+DB8500_GPIO_RIMSC	db8500_gpio.c	52;"	d	file:
+DB8500_GPIO_RWIMSC	db8500_gpio.c	56;"	d	file:
+DB8500_GPIO_SLPC	db8500_gpio.c	48;"	d	file:
+DB8500_GPIO_WKS	db8500_gpio.c	58;"	d	file:
+DECLARE_RESERVED_MAP	adi_gpio2.c	54;"	d	file:
+DIRECTION_INPUT	tegra_gpio.c	/^static const int DIRECTION_INPUT = 0;$/;"	v	file:
+DIRECTION_OUTPUT	tegra_gpio.c	/^static const int DIRECTION_OUTPUT = 1;$/;"	v	file:
+DRV_MASK	s5p_gpio.c	30;"	d	file:
+DRV_SET	s5p_gpio.c	31;"	d	file:
+GEN_74X164_NUMBER_GPIOS	74x164_gpio.c	30;"	d	file:
+GPIOF_HIGH	sandbox.c	16;"	d	file:
+GPIOF_ODR	sandbox.c	17;"	d	file:
+GPIOF_OUTPUT	sandbox.c	15;"	d	file:
+GPIO_ACTIVATE	hsdk-creg-gpio.c	21;"	d	file:
+GPIO_BANK	kona_gpio.c	16;"	d	file:
+GPIO_BASE	kona_gpio.c	10;"	d	file:
+GPIO_BITMASK	kona_gpio.c	17;"	d	file:
+GPIO_BLOCK	db8500_gpio.c	37;"	d	file:
+GPIO_BLOCKS_COUNT	db8500_gpio.c	36;"	d	file:
+GPIO_BOTHEDGE	gpio-rcar.c	25;"	d	file:
+GPIO_CFG_DRYRUN	sh_pfc.c	/^enum { GPIO_CFG_DRYRUN, GPIO_CFG_REQ, GPIO_CFG_FREE };$/;"	e	enum:__anon6	file:
+GPIO_CFG_FREE	sh_pfc.c	/^enum { GPIO_CFG_DRYRUN, GPIO_CFG_REQ, GPIO_CFG_FREE };$/;"	e	enum:__anon6	file:
+GPIO_CFG_REQ	sh_pfc.c	/^enum { GPIO_CFG_DRYRUN, GPIO_CFG_REQ, GPIO_CFG_FREE };$/;"	e	enum:__anon6	file:
+GPIO_CONFIG_OFF	msm_gpio.c	17;"	d	file:
+GPIO_CONTROL	kona_gpio.c	27;"	d	file:
+GPIO_DEACTIVATE	hsdk-creg-gpio.c	22;"	d	file:
+GPIO_DIRECTION_IN	xilinx_gpio.c	/^	GPIO_DIRECTION_IN = 1,$/;"	e	enum:gpio_direction	file:
+GPIO_DIRECTION_OUT	xilinx_gpio.c	/^	GPIO_DIRECTION_OUT = 0,$/;"	e	enum:gpio_direction	file:
+GPIO_EDGLEVEL	gpio-rcar.c	23;"	d	file:
+GPIO_EXT_PORT	dwapb_gpio.c	30;"	d	file:
+GPIO_FILONOFF	gpio-rcar.c	24;"	d	file:
+GPIO_GPCTR0_DBR_MASK	kona_gpio.c	33;"	d	file:
+GPIO_GPCTR0_DBR_SHIFT	kona_gpio.c	32;"	d	file:
+GPIO_GPCTR0_IOTR_CMD_0UTPUT	kona_gpio.c	42;"	d	file:
+GPIO_GPCTR0_IOTR_CMD_INPUT	kona_gpio.c	43;"	d	file:
+GPIO_GPCTR0_IOTR_MASK	kona_gpio.c	41;"	d	file:
+GPIO_GPCTR0_ITR_CMD_BOTH_EDGE	kona_gpio.c	39;"	d	file:
+GPIO_GPCTR0_ITR_CMD_FALLING_EDGE	kona_gpio.c	38;"	d	file:
+GPIO_GPCTR0_ITR_CMD_RISING_EDGE	kona_gpio.c	37;"	d	file:
+GPIO_GPCTR0_ITR_MASK	kona_gpio.c	36;"	d	file:
+GPIO_GPCTR0_ITR_SHIFT	kona_gpio.c	35;"	d	file:
+GPIO_GPPWR_OFFSET	kona_gpio.c	30;"	d	file:
+GPIO_IN	msm_gpio.c	26;"	d	file:
+GPIO_INDT	gpio-rcar.c	17;"	d	file:
+GPIO_INOUTSEL	gpio-rcar.c	15;"	d	file:
+GPIO_INTCLR	gpio-rcar.c	19;"	d	file:
+GPIO_INTDT	gpio-rcar.c	18;"	d	file:
+GPIO_INTEN	dwapb_gpio.c	23;"	d	file:
+GPIO_INTMASK	dwapb_gpio.c	24;"	d	file:
+GPIO_INTMSK	gpio-rcar.c	20;"	d	file:
+GPIO_INTSTATUS	dwapb_gpio.c	27;"	d	file:
+GPIO_INTTYPE_LEVEL	dwapb_gpio.c	25;"	d	file:
+GPIO_INT_FALL_EDGE	mxs_gpio.c	35;"	d	file:
+GPIO_INT_HIGH_LEV	mxs_gpio.c	38;"	d	file:
+GPIO_INT_LEV_MASK	mxs_gpio.c	39;"	d	file:
+GPIO_INT_LOW_LEV	mxs_gpio.c	36;"	d	file:
+GPIO_INT_MASK	kona_gpio.c	25;"	d	file:
+GPIO_INT_MSKCLR	kona_gpio.c	26;"	d	file:
+GPIO_INT_POLARITY	dwapb_gpio.c	26;"	d	file:
+GPIO_INT_POL_MASK	mxs_gpio.c	40;"	d	file:
+GPIO_INT_RISE_EDGE	mxs_gpio.c	37;"	d	file:
+GPIO_INT_STATUS	kona_gpio.c	24;"	d	file:
+GPIO_IN_OUT_OFF	msm_gpio.c	18;"	d	file:
+GPIO_IN_STATUS	kona_gpio.c	21;"	d	file:
+GPIO_IOINTSEL	gpio-rcar.c	14;"	d	file:
+GPIO_IOSEL_OFFSET	intel_ich6_gpio.c	54;"	d	file:
+GPIO_LVL_OFFSET	intel_ich6_gpio.c	55;"	d	file:
+GPIO_MAX_BANK_NUM	kona_gpio.c	14;"	d	file:
+GPIO_MSKCLR	gpio-rcar.c	21;"	d	file:
+GPIO_NAME_SIZE	xilinx_gpio.c	26;"	d	file:
+GPIO_OE_DISABLE	msm_gpio.c	21;"	d	file:
+GPIO_OE_ENABLE	msm_gpio.c	22;"	d	file:
+GPIO_OE_MASK	msm_gpio.c	23;"	d	file:
+GPIO_OUT	msm_gpio.c	27;"	d	file:
+GPIO_OUTDT	gpio-rcar.c	16;"	d	file:
+GPIO_OUT_CLEAR	kona_gpio.c	23;"	d	file:
+GPIO_OUT_SET	kona_gpio.c	22;"	d	file:
+GPIO_OUT_STATUS	kona_gpio.c	20;"	d	file:
+GPIO_PASSWD	kona_gpio.c	12;"	d	file:
+GPIO_PER_BANK	at91_gpio.c	20;"	d	file:
+GPIO_PER_BANK	imx_rgpio2p.c	21;"	d	file:
+GPIO_PER_BANK	intel_ich6_gpio.c	42;"	d	file:
+GPIO_PER_BANK	kona_gpio.c	13;"	d	file:
+GPIO_PER_BANK	mxc_gpio.c	22;"	d	file:
+GPIO_PER_BANK	omap_gpio.c	35;"	d	file:
+GPIO_PINS_PER_BLOCK	db8500_gpio.c	35;"	d	file:
+GPIO_PIN_MASK	hsdk-creg-gpio.c	23;"	d	file:
+GPIO_PIN_WITHIN_BLOCK	db8500_gpio.c	38;"	d	file:
+GPIO_PORTA_DEBOUNCE	dwapb_gpio.c	28;"	d	file:
+GPIO_PORTA_EOI	dwapb_gpio.c	29;"	d	file:
+GPIO_POSNEG	gpio-rcar.c	22;"	d	file:
+GPIO_PWD_STATUS	kona_gpio.c	28;"	d	file:
+GPIO_SWPORT_DDR	dwapb_gpio.c	22;"	d	file:
+GPIO_SWPORT_DR	dwapb_gpio.c	21;"	d	file:
+GPIO_TOTAL_PINS	db8500_gpio.c	34;"	d	file:
+GPIO_TO_MASK	lpc32xx_gpio.c	61;"	d	file:
+GPIO_TO_PORT	lpc32xx_gpio.c	59;"	d	file:
+GPIO_TO_PORT	mxc_gpio.c	34;"	d	file:
+GPIO_TO_RANK	lpc32xx_gpio.c	60;"	d	file:
+GPIO_USESEL_OFFSET	intel_ich6_gpio.c	53;"	d	file:
+HSDK_CREG_MAX_GPIO	hsdk-creg-gpio.c	19;"	d	file:
+ID	sunxi_gpio.c	338;"	d	file:
+IMX_RGPIO2P_DIRECTION_IN	imx_rgpio2p.c	/^	IMX_RGPIO2P_DIRECTION_IN,$/;"	e	enum:imx_rgpio2p_direction	file:
+IMX_RGPIO2P_DIRECTION_OUT	imx_rgpio2p.c	/^	IMX_RGPIO2P_DIRECTION_OUT,$/;"	e	enum:imx_rgpio2p_direction	file:
+IN_OUT_BIT_INDEX	stm32f7_gpio.c	21;"	d	file:
+IO_ADDR	db8500_gpio.c	26;"	d	file:
+KPDPWR_ON_INT_BIT	pm8916_gpio.c	220;"	d	file:
+LPC32XX_GPIOS	lpc32xx_gpio.c	38;"	d	file:
+MAX_BANK	pca953x_gpio.c	49;"	d	file:
+MAX_GPIO	lpc32xx_gpio.c	57;"	d	file:
+MICROCHIP_GPIOS_PER_BANK	pic32_gpio.c	/^	MICROCHIP_GPIOS_PER_BANK = 16,$/;"	e	enum:__anon4	file:
+MICROCHIP_GPIO_DIR_IN	pic32_gpio.c	/^	MICROCHIP_GPIO_DIR_IN,$/;"	e	enum:__anon4	file:
+MICROCHIP_GPIO_DIR_OUT	pic32_gpio.c	/^	MICROCHIP_GPIO_DIR_OUT,$/;"	e	enum:__anon4	file:
+MODE_BITS	stm32f7_gpio.c	19;"	d	file:
+MODE_BITS_MASK	stm32f7_gpio.c	20;"	d	file:
+MPC5121_GPIO_TYPE	mpc8xxx_gpio.c	/^	MPC5121_GPIO_TYPE,$/;"	e	enum:__anon1	file:
+MPC8XXX_GPIO_TYPE	mpc8xxx_gpio.c	/^	MPC8XXX_GPIO_TYPE,$/;"	e	enum:__anon1	file:
+MVEBU_GPIOS_PER_BANK	mvebu_gpio.c	12;"	d	file:
+MV_MAX_GPIO	mvgpio.c	18;"	d	file:
+MXC_GPIO_DIRECTION_IN	mxc_gpio.c	/^	MXC_GPIO_DIRECTION_IN,$/;"	e	enum:mxc_gpio_direction	file:
+MXC_GPIO_DIRECTION_OUT	mxc_gpio.c	/^	MXC_GPIO_DIRECTION_OUT,$/;"	e	enum:mxc_gpio_direction	file:
+OFFSET_TO_BIT	rk_gpio.c	23;"	d	file:
+OF_953X	pca953x_gpio.c	310;"	d	file:
+OF_957X	pca953x_gpio.c	311;"	d	file:
+OMAP_GPIO_DIR_IN	omap_gpio.c	31;"	d	file:
+OMAP_GPIO_DIR_OUT	omap_gpio.c	30;"	d	file:
+PCA953X_CMD_DEVICE	pca953x.c	/^	PCA953X_CMD_DEVICE,$/;"	e	enum:__anon2	file:
+PCA953X_CMD_INFO	pca953x.c	/^	PCA953X_CMD_INFO,$/;"	e	enum:__anon2	file:
+PCA953X_CMD_INPUT	pca953x.c	/^	PCA953X_CMD_INPUT,$/;"	e	enum:__anon2	file:
+PCA953X_CMD_INVERT	pca953x.c	/^	PCA953X_CMD_INVERT,$/;"	e	enum:__anon2	file:
+PCA953X_CMD_OUTPUT	pca953x.c	/^	PCA953X_CMD_OUTPUT,$/;"	e	enum:__anon2	file:
+PCA953X_DIRECTION	pca953x_gpio.c	35;"	d	file:
+PCA953X_DIRECTION_IN	pca953x_gpio.c	/^	PCA953X_DIRECTION_IN,$/;"	e	enum:__anon3	file:
+PCA953X_DIRECTION_OUT	pca953x_gpio.c	/^	PCA953X_DIRECTION_OUT,$/;"	e	enum:__anon3	file:
+PCA953X_INPUT	pca953x_gpio.c	32;"	d	file:
+PCA953X_INVERT	pca953x_gpio.c	34;"	d	file:
+PCA953X_OUTPUT	pca953x_gpio.c	33;"	d	file:
+PCA953X_TYPE	pca953x_gpio.c	39;"	d	file:
+PCA957X_TYPE	pca953x_gpio.c	40;"	d	file:
+PCA9698_BUFFER_SIZE	pca9698.c	25;"	d	file:
+PCA9698_GPIO_COUNT	pca9698.c	26;"	d	file:
+PCA9698_REG_CONFIG	pca9698.c	23;"	d	file:
+PCA9698_REG_INPUT	pca9698.c	20;"	d	file:
+PCA9698_REG_OUTPUT	pca9698.c	21;"	d	file:
+PCA9698_REG_POLARITY	pca9698.c	22;"	d	file:
+PCA_CHIP_TYPE	pca953x_gpio.c	42;"	d	file:
+PCA_GPIO_MASK	pca953x_gpio.c	37;"	d	file:
+PCA_INT	pca953x_gpio.c	38;"	d	file:
+PCA_TYPE_MASK	pca953x_gpio.c	41;"	d	file:
+PINCTRL_BANKS	mxs_gpio.c	16;"	d	file:
+PINCTRL_BANKS	mxs_gpio.c	24;"	d	file:
+PINCTRL_DIN	mxs_gpio.c	18;"	d	file:
+PINCTRL_DIN	mxs_gpio.c	26;"	d	file:
+PINCTRL_DOE	mxs_gpio.c	19;"	d	file:
+PINCTRL_DOE	mxs_gpio.c	27;"	d	file:
+PINCTRL_DOUT	mxs_gpio.c	17;"	d	file:
+PINCTRL_DOUT	mxs_gpio.c	25;"	d	file:
+PINCTRL_IRQEN	mxs_gpio.c	21;"	d	file:
+PINCTRL_IRQEN	mxs_gpio.c	29;"	d	file:
+PINCTRL_IRQSTAT	mxs_gpio.c	22;"	d	file:
+PINCTRL_IRQSTAT	mxs_gpio.c	30;"	d	file:
+PINCTRL_PIN2IRQ	mxs_gpio.c	20;"	d	file:
+PINCTRL_PIN2IRQ	mxs_gpio.c	28;"	d	file:
+PON_INT_RT_STS	pm8916_gpio.c	219;"	d	file:
+PULL_MASK	s5p_gpio.c	27;"	d	file:
+PULL_MODE	s5p_gpio.c	28;"	d	file:
+RATE_MASK	s5p_gpio.c	32;"	d	file:
+RATE_SET	s5p_gpio.c	33;"	d	file:
+RCAR_MAX_GPIO_PER_BANK	gpio-rcar.c	27;"	d	file:
+REG_CTL	pm8916_gpio.c	29;"	d	file:
+REG_CTL_MODE_INOUT	pm8916_gpio.c	32;"	d	file:
+REG_CTL_MODE_INPUT	pm8916_gpio.c	31;"	d	file:
+REG_CTL_MODE_MASK	pm8916_gpio.c	30;"	d	file:
+REG_CTL_MODE_OUTPUT	pm8916_gpio.c	33;"	d	file:
+REG_CTL_OUTPUT_MASK	pm8916_gpio.c	34;"	d	file:
+REG_DIG_OUT_CTL	pm8916_gpio.c	42;"	d	file:
+REG_DIG_OUT_CTL_CMOS	pm8916_gpio.c	43;"	d	file:
+REG_DIG_OUT_CTL_DRIVE_L	pm8916_gpio.c	44;"	d	file:
+REG_DIG_PULL_CTL	pm8916_gpio.c	39;"	d	file:
+REG_DIG_PULL_NO_PU	pm8916_gpio.c	40;"	d	file:
+REG_DIG_VIN_CTL	pm8916_gpio.c	36;"	d	file:
+REG_DIG_VIN_VIN0	pm8916_gpio.c	37;"	d	file:
+REG_EN_CTL	pm8916_gpio.c	46;"	d	file:
+REG_EN_CTL_ENABLE	pm8916_gpio.c	47;"	d	file:
+REG_OFFSET	pm8916_gpio.c	17;"	d	file:
+REG_STATUS	pm8916_gpio.c	25;"	d	file:
+REG_STATUS_VAL_MASK	pm8916_gpio.c	26;"	d	file:
+REG_SUBTYPE	pm8916_gpio.c	23;"	d	file:
+REG_TYPE	pm8916_gpio.c	22;"	d	file:
+RESIN_ON_INT_BIT	pm8916_gpio.c	221;"	d	file:
+RESOURCE_LABEL_SIZE	adi_gpio2.c	14;"	d	file:
+ROCKCHIP_GPIOS_PER_BANK	rk_gpio.c	/^	ROCKCHIP_GPIOS_PER_BANK		= 32,$/;"	e	enum:__anon5	file:
+S5P_GPIO_GET_PIN	s5p_gpio.c	18;"	d	file:
+STM32_GPIOS_PER_BANK	stm32f7_gpio.c	18;"	d	file:
+SUNXI_GPIOS_PER_BANK	sunxi_gpio.c	23;"	d	file:
+TEGRA186_GPIO_DEBOUNCE_THRESHOLD	tegra186_gpio_priv.h	27;"	d
+TEGRA186_GPIO_ENABLE_CONFIG	tegra186_gpio_priv.h	13;"	d
+TEGRA186_GPIO_ENABLE_CONFIG_DEBOUNCE_ENABLE	tegra186_gpio_priv.h	23;"	d
+TEGRA186_GPIO_ENABLE_CONFIG_ENABLE	tegra186_gpio_priv.h	14;"	d
+TEGRA186_GPIO_ENABLE_CONFIG_INTERRUPT_ENABLE	tegra186_gpio_priv.h	24;"	d
+TEGRA186_GPIO_ENABLE_CONFIG_OUT	tegra186_gpio_priv.h	15;"	d
+TEGRA186_GPIO_ENABLE_CONFIG_TIMESTAMPING_ENABLE	tegra186_gpio_priv.h	25;"	d
+TEGRA186_GPIO_ENABLE_CONFIG_TRIGGER_LEVEL_HIGH_RISING	tegra186_gpio_priv.h	22;"	d
+TEGRA186_GPIO_ENABLE_CONFIG_TRIGGER_TYPE_DOUBLE_EDGE	tegra186_gpio_priv.h	21;"	d
+TEGRA186_GPIO_ENABLE_CONFIG_TRIGGER_TYPE_LEVEL	tegra186_gpio_priv.h	19;"	d
+TEGRA186_GPIO_ENABLE_CONFIG_TRIGGER_TYPE_MASK	tegra186_gpio_priv.h	17;"	d
+TEGRA186_GPIO_ENABLE_CONFIG_TRIGGER_TYPE_NONE	tegra186_gpio_priv.h	18;"	d
+TEGRA186_GPIO_ENABLE_CONFIG_TRIGGER_TYPE_SHIFT	tegra186_gpio_priv.h	16;"	d
+TEGRA186_GPIO_ENABLE_CONFIG_TRIGGER_TYPE_SINGLE_EDGE	tegra186_gpio_priv.h	20;"	d
+TEGRA186_GPIO_INPUT	tegra186_gpio_priv.h	29;"	d
+TEGRA186_GPIO_INTERRUPT_CLEAR	tegra186_gpio_priv.h	37;"	d
+TEGRA186_GPIO_INTERRUPT_STATUS_G	tegra186_gpio_priv.h	50;"	d
+TEGRA186_GPIO_INTERRUPT_STATUS_G_COUNT	tegra186_gpio_priv.h	52;"	d
+TEGRA186_GPIO_INTERRUPT_STATUS_G_STRIDE	tegra186_gpio_priv.h	51;"	d
+TEGRA186_GPIO_OUTPUT_CONTROL	tegra186_gpio_priv.h	31;"	d
+TEGRA186_GPIO_OUTPUT_CONTROL_FLOATED	tegra186_gpio_priv.h	32;"	d
+TEGRA186_GPIO_OUTPUT_VALUE	tegra186_gpio_priv.h	34;"	d
+TEGRA186_GPIO_OUTPUT_VALUE_HIGH	tegra186_gpio_priv.h	35;"	d
+TEGRA186_GPIO_PER_GPIO_COUNT	tegra186_gpio_priv.h	44;"	d
+TEGRA186_GPIO_PER_GPIO_STRIDE	tegra186_gpio_priv.h	43;"	d
+TEGRA186_GPIO_PER_PORT_STRIDE	tegra186_gpio_priv.h	58;"	d
+UNIPHIER_GPIO_IRQ_EN	gpio-uniphier.c	19;"	d	file:
+UNIPHIER_GPIO_PORT_DATA	gpio-uniphier.c	17;"	d	file:
+UNIPHIER_GPIO_PORT_DIR	gpio-uniphier.c	18;"	d	file:
+ZYNQMP_GPIO_BANK0_NGPIO	zynq_gpio.c	35;"	d	file:
+ZYNQMP_GPIO_BANK1_NGPIO	zynq_gpio.c	36;"	d	file:
+ZYNQMP_GPIO_BANK2_NGPIO	zynq_gpio.c	37;"	d	file:
+ZYNQMP_GPIO_BANK3_NGPIO	zynq_gpio.c	38;"	d	file:
+ZYNQMP_GPIO_BANK4_NGPIO	zynq_gpio.c	39;"	d	file:
+ZYNQMP_GPIO_BANK5_NGPIO	zynq_gpio.c	40;"	d	file:
+ZYNQMP_GPIO_MAX_BANK	zynq_gpio.c	33;"	d	file:
+ZYNQMP_GPIO_NR_GPIOS	zynq_gpio.c	42;"	d	file:
+ZYNQ_GPIO_BANK0_NGPIO	zynq_gpio.c	23;"	d	file:
+ZYNQ_GPIO_BANK0_PIN_MAX	zynq_gpio.c	45;"	d	file:
+ZYNQ_GPIO_BANK0_PIN_MIN	zynq_gpio.c	44;"	d	file:
+ZYNQ_GPIO_BANK1_NGPIO	zynq_gpio.c	24;"	d	file:
+ZYNQ_GPIO_BANK1_PIN_MAX	zynq_gpio.c	48;"	d	file:
+ZYNQ_GPIO_BANK1_PIN_MIN	zynq_gpio.c	47;"	d	file:
+ZYNQ_GPIO_BANK2_NGPIO	zynq_gpio.c	25;"	d	file:
+ZYNQ_GPIO_BANK2_PIN_MAX	zynq_gpio.c	51;"	d	file:
+ZYNQ_GPIO_BANK2_PIN_MIN	zynq_gpio.c	50;"	d	file:
+ZYNQ_GPIO_BANK3_NGPIO	zynq_gpio.c	26;"	d	file:
+ZYNQ_GPIO_BANK3_PIN_MAX	zynq_gpio.c	54;"	d	file:
+ZYNQ_GPIO_BANK3_PIN_MIN	zynq_gpio.c	53;"	d	file:
+ZYNQ_GPIO_BANK4_PIN_MAX	zynq_gpio.c	57;"	d	file:
+ZYNQ_GPIO_BANK4_PIN_MIN	zynq_gpio.c	56;"	d	file:
+ZYNQ_GPIO_BANK5_PIN_MAX	zynq_gpio.c	60;"	d	file:
+ZYNQ_GPIO_BANK5_PIN_MIN	zynq_gpio.c	59;"	d	file:
+ZYNQ_GPIO_DATA_LSW_OFFSET	zynq_gpio.c	65;"	d	file:
+ZYNQ_GPIO_DATA_MSW_OFFSET	zynq_gpio.c	67;"	d	file:
+ZYNQ_GPIO_DATA_RO_OFFSET	zynq_gpio.c	69;"	d	file:
+ZYNQ_GPIO_DIRM_OFFSET	zynq_gpio.c	71;"	d	file:
+ZYNQ_GPIO_INTANY_OFFSET	zynq_gpio.c	87;"	d	file:
+ZYNQ_GPIO_INTDIS_OFFSET	zynq_gpio.c	79;"	d	file:
+ZYNQ_GPIO_INTEN_OFFSET	zynq_gpio.c	77;"	d	file:
+ZYNQ_GPIO_INTMASK_OFFSET	zynq_gpio.c	75;"	d	file:
+ZYNQ_GPIO_INTPOL_OFFSET	zynq_gpio.c	85;"	d	file:
+ZYNQ_GPIO_INTSTS_OFFSET	zynq_gpio.c	81;"	d	file:
+ZYNQ_GPIO_INTTYPE_OFFSET	zynq_gpio.c	83;"	d	file:
+ZYNQ_GPIO_IXR_DISABLE_ALL	zynq_gpio.c	90;"	d	file:
+ZYNQ_GPIO_MAX_BANK	zynq_gpio.c	21;"	d	file:
+ZYNQ_GPIO_MID_PIN_NUM	zynq_gpio.c	93;"	d	file:
+ZYNQ_GPIO_NR_GPIOS	zynq_gpio.c	28;"	d	file:
+ZYNQ_GPIO_OUTEN_OFFSET	zynq_gpio.c	73;"	d	file:
+ZYNQ_GPIO_UPPER_MASK	zynq_gpio.c	96;"	d	file:
+_TEGRA186_GPIO_PRIV_H_	tegra186_gpio_priv.h	7;"	d
+__MVGPIO_H__	mvgpio.h	12;"	d
+__gpio_direction_input	adi_gpio2.c	/^static inline void __gpio_direction_input(unsigned gpio)$/;"	f	file:
+__set_blinking	kw_gpio.c	/^static void __set_blinking(unsigned pin, int blink)$/;"	f	file:
+__set_direction	kw_gpio.c	/^void __set_direction(unsigned pin, int input)$/;"	f
+__set_level	kw_gpio.c	/^static void __set_level(unsigned pin, int high)$/;"	f	file:
+_dm_gpio_free	gpio-uclass.c	/^int _dm_gpio_free(struct udevice *dev, uint offset)$/;"	f
+_get_gpio_direction	omap_gpio.c	/^static int _get_gpio_direction(const struct gpio_bank *bank, int gpio)$/;"	f	file:
+_get_gpio_value	omap_gpio.c	/^static int _get_gpio_value(const struct gpio_bank *bank, int gpio)$/;"	f	file:
+_gpio_direction_input	da8xx_gpio.c	/^static int _gpio_direction_input(struct davinci_gpio *bank, unsigned int gpio)$/;"	f	file:
+_gpio_direction_output	da8xx_gpio.c	/^static int _gpio_direction_output(struct davinci_gpio *bank, unsigned int gpio, int value)$/;"	f	file:
+_gpio_get_dir	da8xx_gpio.c	/^static int _gpio_get_dir(struct davinci_gpio *bank, unsigned int gpio)$/;"	f	file:
+_gpio_get_value	da8xx_gpio.c	/^static int _gpio_get_value(struct davinci_gpio *bank, unsigned int gpio)$/;"	f	file:
+_gpio_request_by_name_nodev	gpio-uclass.c	/^static int _gpio_request_by_name_nodev(ofnode node, const char *list_name,$/;"	f	file:
+_gpio_set_value	da8xx_gpio.c	/^static int _gpio_set_value(struct davinci_gpio *bank, unsigned int gpio, int value)$/;"	f	file:
+_ich6_gpio_set_direction	intel_ich6_gpio.c	/^static int _ich6_gpio_set_direction(uint16_t base, unsigned offset, int dir)$/;"	f	file:
+_ich6_gpio_set_value	intel_ich6_gpio.c	/^static int _ich6_gpio_set_value(struct ich6_bank_priv *bank, unsigned offset,$/;"	f	file:
+_set_gpio_dataout	omap_gpio.c	/^static void _set_gpio_dataout(const struct gpio_bank *bank, int gpio,$/;"	f	file:
+_set_gpio_direction	omap_gpio.c	/^static void _set_gpio_direction(const struct gpio_bank *bank, int gpio,$/;"	f	file:
+addr	mpc8xxx_gpio.c	/^	ulong addr;$/;"	m	struct:mpc8xxx_gpio_data	file:
+addr	pca953x_gpio.c	/^	int addr;$/;"	m	struct:pca953x_info	file:
+altera_pio	altera_pio.c	/^U_BOOT_DRIVER(altera_pio) = {$/;"	v
+altera_pio_direction_input	altera_pio.c	/^static int altera_pio_direction_input(struct udevice *dev, unsigned pin)$/;"	f	file:
+altera_pio_direction_output	altera_pio.c	/^static int altera_pio_direction_output(struct udevice *dev, unsigned pin,$/;"	f	file:
+altera_pio_get_value	altera_pio.c	/^static int altera_pio_get_value(struct udevice *dev, unsigned pin)$/;"	f	file:
+altera_pio_ids	altera_pio.c	/^static const struct udevice_id altera_pio_ids[] = {$/;"	v	typeref:struct:udevice_id	file:
+altera_pio_ofdata_to_platdata	altera_pio.c	/^static int altera_pio_ofdata_to_platdata(struct udevice *dev)$/;"	f	file:
+altera_pio_ops	altera_pio.c	/^static const struct dm_gpio_ops altera_pio_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+altera_pio_platdata	altera_pio.c	/^struct altera_pio_platdata {$/;"	s	file:
+altera_pio_probe	altera_pio.c	/^static int altera_pio_probe(struct udevice *dev)$/;"	f	file:
+altera_pio_regs	altera_pio.c	/^struct altera_pio_regs {$/;"	s	file:
+altera_pio_set_value	altera_pio.c	/^static int altera_pio_set_value(struct udevice *dev, unsigned pin, int val)$/;"	f	file:
+ansel	pic32_gpio.c	/^	struct pic32_reg_atomic ansel;$/;"	m	struct:pic32_reg_port	typeref:struct:pic32_reg_port::pic32_reg_atomic	file:
+apmask	mvgpio.h	/^	u32 apmask;	\/* Bitwise Mask of Edge Detect Register - 0x009C *\/$/;"	m	struct:gpio_reg
+at91_get_pio_value	at91_gpio.c	/^int at91_get_pio_value(unsigned port, unsigned pin)$/;"	f
+at91_get_port_output	at91_gpio.c	/^static bool at91_get_port_output(struct at91_port *at91_port, int offset)$/;"	f	file:
+at91_get_port_value	at91_gpio.c	/^static int at91_get_port_value(struct at91_port *at91_port, int offset)$/;"	f	file:
+at91_gpio_direction_input	at91_gpio.c	/^static int at91_gpio_direction_input(struct udevice *dev, unsigned offset)$/;"	f	file:
+at91_gpio_direction_output	at91_gpio.c	/^static int at91_gpio_direction_output(struct udevice *dev, unsigned offset,$/;"	f	file:
+at91_gpio_get_function	at91_gpio.c	/^static int at91_gpio_get_function(struct udevice *dev, unsigned offset)$/;"	f	file:
+at91_gpio_get_value	at91_gpio.c	/^static int at91_gpio_get_value(struct udevice *dev, unsigned offset)$/;"	f	file:
+at91_gpio_ids	at91_gpio.c	/^static const struct udevice_id at91_gpio_ids[] = {$/;"	v	typeref:struct:udevice_id	file:
+at91_gpio_probe	at91_gpio.c	/^static int at91_gpio_probe(struct udevice *dev)$/;"	f	file:
+at91_gpio_set_value	at91_gpio.c	/^static int at91_gpio_set_value(struct udevice *dev, unsigned offset,$/;"	f	file:
+at91_pio3_set_a_periph	at91_gpio.c	/^int at91_pio3_set_a_periph(unsigned port, unsigned pin, int use_pullup)$/;"	f
+at91_pio3_set_b_periph	at91_gpio.c	/^int at91_pio3_set_b_periph(unsigned port, unsigned pin, int use_pullup)$/;"	f
+at91_pio3_set_c_periph	at91_gpio.c	/^int at91_pio3_set_c_periph(unsigned port, unsigned pin, int use_pullup)$/;"	f
+at91_pio3_set_d_periph	at91_gpio.c	/^int at91_pio3_set_d_periph(unsigned port, unsigned pin, int use_pullup)$/;"	f
+at91_pio3_set_pio_debounce	at91_gpio.c	/^int at91_pio3_set_pio_debounce(unsigned port, unsigned pin, int is_on, int div)$/;"	f
+at91_pio3_set_pio_deglitch	at91_gpio.c	/^int at91_pio3_set_pio_deglitch(unsigned port, unsigned pin, int is_on)$/;"	f
+at91_pio3_set_pio_disable_schmitt_trig	at91_gpio.c	/^int at91_pio3_set_pio_disable_schmitt_trig(unsigned port, unsigned pin)$/;"	f
+at91_pio3_set_pio_pulldown	at91_gpio.c	/^int at91_pio3_set_pio_pulldown(unsigned port, unsigned pin, int is_on)$/;"	f
+at91_pio3_set_pio_pullup	at91_gpio.c	/^int at91_pio3_set_pio_pullup(unsigned port, unsigned pin, int use_pullup)$/;"	f
+at91_pio_get_port	at91_gpio.c	/^static struct at91_port *at91_pio_get_port(unsigned port)$/;"	f	file:
+at91_port_priv	at91_gpio.c	/^struct at91_port_priv {$/;"	s	file:
+at91_set_a_periph	at91_gpio.c	/^int at91_set_a_periph(unsigned port, unsigned pin, int use_pullup)$/;"	f
+at91_set_b_periph	at91_gpio.c	/^int at91_set_b_periph(unsigned port, unsigned pin, int use_pullup)$/;"	f
+at91_set_pio_deglitch	at91_gpio.c	/^int at91_set_pio_deglitch(unsigned port, unsigned pin, int is_on)$/;"	f
+at91_set_pio_input	at91_gpio.c	/^int at91_set_pio_input(unsigned port, u32 pin, int use_pullup)$/;"	f
+at91_set_pio_multi_drive	at91_gpio.c	/^int at91_set_pio_multi_drive(unsigned port, unsigned pin, int is_on)$/;"	f
+at91_set_pio_output	at91_gpio.c	/^int at91_set_pio_output(unsigned port, u32 pin, int value)$/;"	f
+at91_set_pio_periph	at91_gpio.c	/^int at91_set_pio_periph(unsigned port, unsigned pin, int use_pullup)$/;"	f
+at91_set_pio_pullup	at91_gpio.c	/^int at91_set_pio_pullup(unsigned port, unsigned pin, int use_pullup)$/;"	f
+at91_set_pio_value	at91_gpio.c	/^int at91_set_pio_value(unsigned port, unsigned pin, int value)$/;"	f
+at91_set_port_input	at91_gpio.c	/^static void at91_set_port_input(struct at91_port *at91_port, int offset,$/;"	f	file:
+at91_set_port_output	at91_gpio.c	/^static void at91_set_port_output(struct at91_port *at91_port, int offset,$/;"	f	file:
+at91_set_port_pullup	at91_gpio.c	/^static void at91_set_port_pullup(struct at91_port *at91_port, unsigned offset,$/;"	f	file:
+at91_set_port_value	at91_gpio.c	/^static void at91_set_port_value(struct at91_port *at91_port, int offset,$/;"	f	file:
+atmel_pio4_bank_base	atmel_pio4.c	/^static struct atmel_pio4_port *atmel_pio4_bank_base(struct udevice *dev,$/;"	f	file:
+atmel_pio4_bind	atmel_pio4.c	/^static int atmel_pio4_bind(struct udevice *dev)$/;"	f	file:
+atmel_pio4_config_io_func	atmel_pio4.c	/^static int atmel_pio4_config_io_func(u32 port, u32 pin,$/;"	f	file:
+atmel_pio4_direction_input	atmel_pio4.c	/^static int atmel_pio4_direction_input(struct udevice *dev, unsigned offset)$/;"	f	file:
+atmel_pio4_direction_output	atmel_pio4.c	/^static int atmel_pio4_direction_output(struct udevice *dev,$/;"	f	file:
+atmel_pio4_get_function	atmel_pio4.c	/^static int atmel_pio4_get_function(struct udevice *dev, unsigned offset)$/;"	f	file:
+atmel_pio4_get_pio_input	atmel_pio4.c	/^int atmel_pio4_get_pio_input(u32 port, u32 pin)$/;"	f
+atmel_pio4_get_value	atmel_pio4.c	/^static int atmel_pio4_get_value(struct udevice *dev, unsigned offset)$/;"	f	file:
+atmel_pio4_ids	atmel_pio4.c	/^static const struct udevice_id atmel_pio4_ids[] = {$/;"	v	typeref:struct:udevice_id	file:
+atmel_pio4_ops	atmel_pio4.c	/^static const struct dm_gpio_ops atmel_pio4_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+atmel_pio4_platdata	atmel_pio4.c	/^struct atmel_pio4_platdata {$/;"	s	file:
+atmel_pio4_port_base	atmel_pio4.c	/^static struct atmel_pio4_port *atmel_pio4_port_base(u32 port)$/;"	f	file:
+atmel_pio4_probe	atmel_pio4.c	/^static int atmel_pio4_probe(struct udevice *dev)$/;"	f	file:
+atmel_pio4_set_a_periph	atmel_pio4.c	/^int atmel_pio4_set_a_periph(u32 port, u32 pin, u32 config)$/;"	f
+atmel_pio4_set_b_periph	atmel_pio4.c	/^int atmel_pio4_set_b_periph(u32 port, u32 pin, u32 config)$/;"	f
+atmel_pio4_set_c_periph	atmel_pio4.c	/^int atmel_pio4_set_c_periph(u32 port, u32 pin, u32 config)$/;"	f
+atmel_pio4_set_d_periph	atmel_pio4.c	/^int atmel_pio4_set_d_periph(u32 port, u32 pin, u32 config)$/;"	f
+atmel_pio4_set_e_periph	atmel_pio4.c	/^int atmel_pio4_set_e_periph(u32 port, u32 pin, u32 config)$/;"	f
+atmel_pio4_set_f_periph	atmel_pio4.c	/^int atmel_pio4_set_f_periph(u32 port, u32 pin, u32 config)$/;"	f
+atmel_pio4_set_g_periph	atmel_pio4.c	/^int atmel_pio4_set_g_periph(u32 port, u32 pin, u32 config)$/;"	f
+atmel_pio4_set_gpio	atmel_pio4.c	/^int atmel_pio4_set_gpio(u32 port, u32 pin, u32 config)$/;"	f
+atmel_pio4_set_pio_output	atmel_pio4.c	/^int atmel_pio4_set_pio_output(u32 port, u32 pin, u32 value)$/;"	f
+atmel_pio4_set_value	atmel_pio4.c	/^static int atmel_pio4_set_value(struct udevice *dev,$/;"	f	file:
+atmel_pioctrl_data	atmel_pio4.c	/^struct atmel_pioctrl_data {$/;"	s	file:
+atmel_sama5d2_pioctrl_data	atmel_pio4.c	/^static const struct atmel_pioctrl_data atmel_sama5d2_pioctrl_data = {$/;"	v	typeref:struct:atmel_pioctrl_data	file:
+axp_get_gpio_ctrl_reg	axp_gpio.c	/^static u8 axp_get_gpio_ctrl_reg(unsigned pin)$/;"	f	file:
+axp_gpio_direction_input	axp_gpio.c	/^static int axp_gpio_direction_input(struct udevice *dev, unsigned pin)$/;"	f	file:
+axp_gpio_direction_output	axp_gpio.c	/^static int axp_gpio_direction_output(struct udevice *dev, unsigned pin,$/;"	f	file:
+axp_gpio_get_value	axp_gpio.c	/^static int axp_gpio_get_value(struct udevice *dev, unsigned pin)$/;"	f	file:
+axp_gpio_init	axp_gpio.c	/^int axp_gpio_init(void)$/;"	f
+axp_gpio_set_value	axp_gpio.c	/^static int axp_gpio_set_value(struct udevice *dev, unsigned pin, int val)$/;"	f	file:
+bank	dwapb_gpio.c	/^	int		bank;$/;"	m	struct:gpio_dwapb_platdata	file:
+bank	intel_broadwell_gpio.c	/^	int bank;$/;"	m	struct:broadwell_bank_priv	file:
+bank	rk_gpio.c	/^	int bank;$/;"	m	struct:rockchip_gpio_priv	file:
+bank	s5p_gpio.c	/^	struct s5p_gpio_bank *bank;$/;"	m	struct:exynos_bank_info	typeref:struct:exynos_bank_info::s5p_gpio_bank	file:
+bank	s5p_gpio.c	/^	struct s5p_gpio_bank *bank;$/;"	m	struct:exynos_gpio_platdata	typeref:struct:exynos_gpio_platdata::s5p_gpio_bank	file:
+bank	tegra_gpio.c	/^	struct gpio_ctlr_bank *bank;$/;"	m	struct:tegra_gpio_platdata	typeref:struct:tegra_gpio_platdata::gpio_ctlr_bank	file:
+bank	tegra_gpio.c	/^	struct gpio_ctlr_bank *bank;$/;"	m	struct:tegra_port_info	typeref:struct:tegra_port_info::gpio_ctlr_bank	file:
+bank_count	pca953x_gpio.c	/^	int bank_count;$/;"	m	struct:pca953x_info	file:
+bank_index	imx_rgpio2p.c	/^	int bank_index;$/;"	m	struct:imx_rgpio2p_plat	file:
+bank_index	mxc_gpio.c	/^	int bank_index;$/;"	m	struct:mxc_gpio_plat	file:
+bank_max	zynq_gpio.c	/^	u32 bank_max[ZYNQMP_GPIO_MAX_BANK];$/;"	m	struct:zynq_platform_data	file:
+bank_min	zynq_gpio.c	/^	u32 bank_min[ZYNQMP_GPIO_MAX_BANK];$/;"	m	struct:zynq_platform_data	file:
+bank_name	altera_pio.c	/^	const char *bank_name;$/;"	m	struct:altera_pio_platdata	file:
+bank_name	pcf8575_gpio.c	/^	const char *bank_name;	\/* Name of the expander bank *\/$/;"	m	struct:pcf8575_chip	file:
+bank_name	s5p_gpio.c	/^	const char *bank_name;	\/* Name of port, e.g. 'gpa0" *\/$/;"	m	struct:exynos_gpio_platdata	file:
+bank_name	sunxi_gpio.c	/^	const char *bank_name;	\/* Name of bank, e.g. "B" *\/$/;"	m	struct:sunxi_gpio_platdata	file:
+base	dwapb_gpio.c	/^	fdt_addr_t	base;$/;"	m	struct:gpio_dwapb_platdata	file:
+base	mpc8xxx_gpio.c	/^	struct ccsr_gpio __iomem *base;$/;"	m	struct:mpc8xxx_gpio_data	typeref:struct:mpc8xxx_gpio_data::__iomem	file:
+base	msm_gpio.c	/^	phys_addr_t base;$/;"	m	struct:msm_gpio_bank	file:
+base	omap_gpio.c	/^	void *base;	\/* address of registers in physical memory *\/$/;"	m	struct:gpio_bank	file:
+base	zynq_gpio.c	/^	phys_addr_t base;$/;"	m	struct:zynq_gpio_privdata	file:
+base_gpio	tegra_gpio.c	/^	int base_gpio;		\/* Port number for this port (0, 1,.., n-1) *\/$/;"	m	struct:tegra_gpio_platdata	file:
+base_gpio	tegra_gpio.c	/^	int base_gpio;		\/* Port number for this port (0, 1,.., n-1) *\/$/;"	m	struct:tegra_port_info	file:
+bcm2835_get_value	bcm2835_gpio.c	/^static int bcm2835_get_value(const struct bcm2835_gpios *gpios, unsigned gpio)$/;"	f	file:
+bcm2835_gpio_direction_input	bcm2835_gpio.c	/^static int bcm2835_gpio_direction_input(struct udevice *dev, unsigned gpio)$/;"	f	file:
+bcm2835_gpio_direction_output	bcm2835_gpio.c	/^static int bcm2835_gpio_direction_output(struct udevice *dev, unsigned int gpio,$/;"	f	file:
+bcm2835_gpio_get_function	bcm2835_gpio.c	/^static int bcm2835_gpio_get_function(struct udevice *dev, unsigned offset)$/;"	f	file:
+bcm2835_gpio_get_value	bcm2835_gpio.c	/^static int bcm2835_gpio_get_value(struct udevice *dev, unsigned gpio)$/;"	f	file:
+bcm2835_gpio_ofdata_to_platdata	bcm2835_gpio.c	/^static int bcm2835_gpio_ofdata_to_platdata(struct udevice *dev)$/;"	f	file:
+bcm2835_gpio_probe	bcm2835_gpio.c	/^static int bcm2835_gpio_probe(struct udevice *dev)$/;"	f	file:
+bcm2835_gpio_set_value	bcm2835_gpio.c	/^static int bcm2835_gpio_set_value(struct udevice *dev, unsigned gpio,$/;"	f	file:
+bcm2835_gpios	bcm2835_gpio.c	/^struct bcm2835_gpios {$/;"	s	file:
+bcm6345_gpio	bcm6345_gpio.c	/^U_BOOT_DRIVER(bcm6345_gpio) = {$/;"	v
+bcm6345_gpio_direction_input	bcm6345_gpio.c	/^static int bcm6345_gpio_direction_input(struct udevice *dev, unsigned offset)$/;"	f	file:
+bcm6345_gpio_direction_output	bcm6345_gpio.c	/^static int bcm6345_gpio_direction_output(struct udevice *dev, unsigned offset,$/;"	f	file:
+bcm6345_gpio_get_function	bcm6345_gpio.c	/^static int bcm6345_gpio_get_function(struct udevice *dev, unsigned offset)$/;"	f	file:
+bcm6345_gpio_get_value	bcm6345_gpio.c	/^static int bcm6345_gpio_get_value(struct udevice *dev, unsigned offset)$/;"	f	file:
+bcm6345_gpio_ids	bcm6345_gpio.c	/^static const struct udevice_id bcm6345_gpio_ids[] = {$/;"	v	typeref:struct:udevice_id	file:
+bcm6345_gpio_ops	bcm6345_gpio.c	/^static const struct dm_gpio_ops bcm6345_gpio_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+bcm6345_gpio_priv	bcm6345_gpio.c	/^struct bcm6345_gpio_priv {$/;"	s	file:
+bcm6345_gpio_probe	bcm6345_gpio.c	/^static int bcm6345_gpio_probe(struct udevice *dev)$/;"	f	file:
+bcm6345_gpio_set_direction	bcm6345_gpio.c	/^static int bcm6345_gpio_set_direction(void __iomem *dirout, unsigned offset,$/;"	f	file:
+bcm6345_gpio_set_value	bcm6345_gpio.c	/^static int bcm6345_gpio_set_value(struct udevice *dev, unsigned offset,$/;"	f	file:
+blink_en	mvebu_gpio.c	/^	u32 blink_en;$/;"	m	struct:mvebu_gpio_regs	file:
+broadwell_bank_priv	intel_broadwell_gpio.c	/^struct broadwell_bank_priv {$/;"	s	file:
+broadwell_gpio_direction_input	intel_broadwell_gpio.c	/^static int broadwell_gpio_direction_input(struct udevice *dev, unsigned offset)$/;"	f	file:
+broadwell_gpio_direction_output	intel_broadwell_gpio.c	/^static int broadwell_gpio_direction_output(struct udevice *dev, unsigned offset,$/;"	f	file:
+broadwell_gpio_get_function	intel_broadwell_gpio.c	/^static int broadwell_gpio_get_function(struct udevice *dev, unsigned offset)$/;"	f	file:
+broadwell_gpio_get_value	intel_broadwell_gpio.c	/^static int broadwell_gpio_get_value(struct udevice *dev, unsigned offset)$/;"	f	file:
+broadwell_gpio_ofdata_to_platdata	intel_broadwell_gpio.c	/^static int broadwell_gpio_ofdata_to_platdata(struct udevice *dev)$/;"	f	file:
+broadwell_gpio_probe	intel_broadwell_gpio.c	/^static int broadwell_gpio_probe(struct udevice *dev)$/;"	f	file:
+broadwell_gpio_request	intel_broadwell_gpio.c	/^static int broadwell_gpio_request(struct udevice *dev, unsigned offset,$/;"	f	file:
+broadwell_gpio_set_value	intel_broadwell_gpio.c	/^static int broadwell_gpio_set_value(struct udevice *dev, unsigned offset,$/;"	f	file:
+buffer	74x164_gpio.c	/^	u8 *buffer;$/;"	m	struct:gen_74x164_priv	file:
+ccsr_gpio	mpc8xxx_gpio.c	/^struct ccsr_gpio {$/;"	s	file:
+check_gpio	adi_gpio2.c	/^inline int check_gpio(unsigned gpio)$/;"	f
+check_gpio	omap_gpio.c	/^static int check_gpio(int gpio)$/;"	f	file:
+check_gpio	zynq_gpio.c	/^static int check_gpio(unsigned gpio, struct udevice *dev)$/;"	f	file:
+check_reserved	gpio-uclass.c	/^static int check_reserved(const struct gpio_desc *desc, const char *func)$/;"	f	file:
+chip	pca953x.c	/^	uint8_t chip;$/;"	m	struct:pca953x_chip_ngpio	file:
+chip	vybrid_gpio.c	/^	unsigned int chip;$/;"	m	struct:vybrid_gpios	file:
+chip_type	pca953x_gpio.c	/^	int chip_type;$/;"	m	struct:pca953x_info	file:
+cmd_pca953x	pca953x.c	/^static cmd_tbl_t cmd_pca953x[] = {$/;"	v	file:
+cmd_tca642x	tca642x.c	/^static cmd_tbl_t cmd_tca642x[] = {$/;"	v	file:
+cmp_label	adi_gpio2.c	/^static int cmp_label(unsigned short ident, const char *label)$/;"	f	file:
+cncon	pic32_gpio.c	/^	struct pic32_reg_atomic cncon;$/;"	m	struct:pic32_reg_port	typeref:struct:pic32_reg_port::pic32_reg_atomic	file:
+cnpd	pic32_gpio.c	/^	struct pic32_reg_atomic cnpd;$/;"	m	struct:pic32_reg_port	typeref:struct:pic32_reg_port::pic32_reg_atomic	file:
+cnpu	pic32_gpio.c	/^	struct pic32_reg_atomic cnpu;$/;"	m	struct:pic32_reg_port	typeref:struct:pic32_reg_port::pic32_reg_atomic	file:
+config_pin	db8500_gpio.c	/^static void config_pin(unsigned long cfg)$/;"	f	file:
+config_reg_helper	sh_pfc.c	/^static void config_reg_helper(struct pinmux_info *gpioc,$/;"	f	file:
+dat_shadow	mpc8xxx_gpio.c	/^	u32 dat_shadow;$/;"	m	struct:mpc8xxx_gpio_data	file:
+data	altera_pio.c	/^	u32	data;			\/* Data register *\/$/;"	m	struct:altera_pio_regs	file:
+data_in	mvebu_gpio.c	/^	u32 data_in;$/;"	m	struct:mvebu_gpio_regs	file:
+data_out	mvebu_gpio.c	/^	u32 data_out;$/;"	m	struct:mvebu_gpio_regs	file:
+davinci_configure_pin_mux	da8xx_gpio.c	306;"	d	file:
+davinci_get_gpio_bank	da8xx_gpio.c	/^static struct davinci_gpio *davinci_get_gpio_bank(struct udevice *dev, unsigned int offset)$/;"	f	file:
+davinci_gpio_direction_input	da8xx_gpio.c	/^static int davinci_gpio_direction_input(struct udevice *dev, unsigned int offset)$/;"	f	file:
+davinci_gpio_direction_output	da8xx_gpio.c	/^static int davinci_gpio_direction_output(struct udevice *dev, unsigned int offset,$/;"	f	file:
+davinci_gpio_get_function	da8xx_gpio.c	/^static int davinci_gpio_get_function(struct udevice *dev, unsigned int offset)$/;"	f	file:
+davinci_gpio_get_value	da8xx_gpio.c	/^static int davinci_gpio_get_value(struct udevice *dev, unsigned int offset)$/;"	f	file:
+davinci_gpio_ids	da8xx_gpio.c	/^static const struct udevice_id davinci_gpio_ids[] = {$/;"	v	typeref:struct:udevice_id	file:
+davinci_gpio_ofdata_to_platdata	da8xx_gpio.c	/^static int davinci_gpio_ofdata_to_platdata(struct udevice *dev)$/;"	f	file:
+davinci_gpio_probe	da8xx_gpio.c	/^static int davinci_gpio_probe(struct udevice *dev)$/;"	f	file:
+davinci_gpio_set_value	da8xx_gpio.c	/^static int davinci_gpio_set_value(struct udevice *dev, unsigned int offset,$/;"	f	file:
+db8500_gpio_config_pins	db8500_gpio.c	/^void db8500_gpio_config_pins(unsigned long *cfgs, size_t num)$/;"	f
+db8500_gpio_get_input	db8500_gpio.c	/^int db8500_gpio_get_input(unsigned gpio)$/;"	f
+db8500_gpio_make_input	db8500_gpio.c	/^void db8500_gpio_make_input(unsigned gpio)$/;"	f
+db8500_gpio_make_output	db8500_gpio.c	/^void db8500_gpio_make_output(unsigned gpio, int val)$/;"	f
+db8500_gpio_set_output	db8500_gpio.c	/^void db8500_gpio_set_output(unsigned gpio, int val)$/;"	f
+db8500_gpio_set_pull	db8500_gpio.c	/^void db8500_gpio_set_pull(unsigned gpio, enum db8500_gpio_pull pull)$/;"	f
+dev	pca953x_gpio.c	/^	struct udevice *dev;$/;"	m	struct:pca953x_info	typeref:struct:pca953x_info::udevice	file:
+direction	altera_pio.c	/^	u32	direction;		\/* Direction register *\/$/;"	m	struct:altera_pio_regs	file:
+dm_gpio_free	gpio-uclass.c	/^int dm_gpio_free(struct udevice *dev, struct gpio_desc *desc)$/;"	f
+dm_gpio_get_open_drain	gpio-uclass.c	/^int dm_gpio_get_open_drain(struct gpio_desc *desc)$/;"	f
+dm_gpio_get_value	gpio-uclass.c	/^int dm_gpio_get_value(const struct gpio_desc *desc)$/;"	f
+dm_gpio_get_values_as_int	gpio-uclass.c	/^int dm_gpio_get_values_as_int(const struct gpio_desc *desc_list, int count)$/;"	f
+dm_gpio_lookup_name	gpio-uclass.c	/^int dm_gpio_lookup_name(const char *name, struct gpio_desc *desc)$/;"	f
+dm_gpio_request	gpio-uclass.c	/^int dm_gpio_request(struct gpio_desc *desc, const char *label)$/;"	f
+dm_gpio_requestf	gpio-uclass.c	/^static int dm_gpio_requestf(struct gpio_desc *desc, const char *fmt, ...)$/;"	f	file:
+dm_gpio_set_dir	gpio-uclass.c	/^int dm_gpio_set_dir(struct gpio_desc *desc)$/;"	f
+dm_gpio_set_dir_flags	gpio-uclass.c	/^int dm_gpio_set_dir_flags(struct gpio_desc *desc, ulong flags)$/;"	f
+dm_gpio_set_open_drain	gpio-uclass.c	/^int dm_gpio_set_open_drain(struct gpio_desc *desc, int value)$/;"	f
+dm_gpio_set_value	gpio-uclass.c	/^int dm_gpio_set_value(const struct gpio_desc *desc, int value)$/;"	f
+do_pca953x	pca953x.c	/^static int do_pca953x(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	file:
+do_tca642x	tca642x.c	/^static int do_tca642x(cmd_tbl_t *cmdtp, int flag, int argc, char * const argv[])$/;"	f	file:
+dwapb_gpio_direction_input	dwapb_gpio.c	/^static int dwapb_gpio_direction_input(struct udevice *dev, unsigned pin)$/;"	f	file:
+dwapb_gpio_direction_output	dwapb_gpio.c	/^static int dwapb_gpio_direction_output(struct udevice *dev, unsigned pin,$/;"	f	file:
+dwapb_gpio_get_value	dwapb_gpio.c	/^static int dwapb_gpio_get_value(struct udevice *dev, unsigned pin)$/;"	f	file:
+dwapb_gpio_set_value	dwapb_gpio.c	/^static int dwapb_gpio_set_value(struct udevice *dev, unsigned pin, int val)$/;"	f	file:
+enum_in_range	sh_pfc.c	/^static int enum_in_range(pinmux_enum_t enum_id, struct pinmux_range *r)$/;"	f	file:
+exynos_bank_info	s5p_gpio.c	/^struct exynos_bank_info {$/;"	s	file:
+exynos_gpio_direction_input	s5p_gpio.c	/^static int exynos_gpio_direction_input(struct udevice *dev, unsigned offset)$/;"	f	file:
+exynos_gpio_direction_output	s5p_gpio.c	/^static int exynos_gpio_direction_output(struct udevice *dev, unsigned offset,$/;"	f	file:
+exynos_gpio_get_function	s5p_gpio.c	/^static int exynos_gpio_get_function(struct udevice *dev, unsigned offset)$/;"	f	file:
+exynos_gpio_get_value	s5p_gpio.c	/^static int exynos_gpio_get_value(struct udevice *dev, unsigned offset)$/;"	f	file:
+exynos_gpio_ids	s5p_gpio.c	/^static const struct udevice_id exynos_gpio_ids[] = {$/;"	v	typeref:struct:udevice_id	file:
+exynos_gpio_platdata	s5p_gpio.c	/^struct exynos_gpio_platdata {$/;"	s	file:
+exynos_gpio_set_value	s5p_gpio.c	/^static int exynos_gpio_set_value(struct udevice *dev, unsigned offset,$/;"	f	file:
+flags	sandbox.c	/^	u8 flags;		\/* flags (GPIOF_...) *\/$/;"	m	struct:gpio_state	file:
+function	lpc32xx_gpio.c	/^	signed char function[LPC32XX_GPIOS];$/;"	m	struct:lpc32xx_gpio_priv	file:
+gcdr	mvgpio.h	/^	u32 gcdr;	\/* Bitwise Clear of GPIO Direction Register - 0x0060 *\/$/;"	m	struct:gpio_reg
+gcfer	mvgpio.h	/^	u32 gcfer;	\/* Bitwise Clear of Falling-Edge Detect Enable$/;"	m	struct:gpio_reg
+gcrer	mvgpio.h	/^	u32 gcrer;	\/* Bitwise Clear of Rising-Edge Detect Enable$/;"	m	struct:gpio_reg
+gedr	mvgpio.h	/^	u32 gedr;	\/* Edge Detect Status Register - 0x0048 *\/$/;"	m	struct:gpio_reg
+gen_74x164_direction_input	74x164_gpio.c	/^static int gen_74x164_direction_input(struct udevice *dev, unsigned offset)$/;"	f	file:
+gen_74x164_direction_output	74x164_gpio.c	/^static int gen_74x164_direction_output(struct udevice *dev, unsigned offset,$/;"	f	file:
+gen_74x164_get_function	74x164_gpio.c	/^static int gen_74x164_get_function(struct udevice *dev, unsigned offset)$/;"	f	file:
+gen_74x164_get_value	74x164_gpio.c	/^static int gen_74x164_get_value(struct udevice *dev, unsigned offset)$/;"	f	file:
+gen_74x164_ids	74x164_gpio.c	/^static const struct udevice_id gen_74x164_ids[] = {$/;"	v	typeref:struct:udevice_id	file:
+gen_74x164_ops	74x164_gpio.c	/^static const struct dm_gpio_ops gen_74x164_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+gen_74x164_priv	74x164_gpio.c	/^struct gen_74x164_priv {$/;"	s	file:
+gen_74x164_probe	74x164_gpio.c	/^static int gen_74x164_probe(struct udevice *dev)$/;"	f	file:
+gen_74x164_set_value	74x164_gpio.c	/^static int gen_74x164_set_value(struct udevice *dev, unsigned offset,$/;"	f	file:
+gen_74x164_write_conf	74x164_gpio.c	/^static int gen_74x164_write_conf(struct udevice *dev)$/;"	f	file:
+gen_74x164_xlate	74x164_gpio.c	/^static int gen_74x164_xlate(struct udevice *dev, struct gpio_desc *desc,$/;"	f	file:
+get_config	tegra_gpio.c	/^static int get_config(unsigned gpio)$/;"	f	file:
+get_config_reg	sh_pfc.c	/^static int get_config_reg(struct pinmux_info *gpioc, pinmux_enum_t enum_id,$/;"	f	file:
+get_data_reg	sh_pfc.c	/^static int get_data_reg(struct pinmux_info *gpioc, unsigned gpio,$/;"	f	file:
+get_direction	tegra_gpio.c	/^static int get_direction(unsigned gpio)$/;"	f	file:
+get_function	gpio-uclass.c	/^static int get_function(struct udevice *dev, int offset, bool skip_unused,$/;"	f	file:
+get_gpio_addr	db8500_gpio.c	/^static void __iomem *get_gpio_addr(unsigned gpio)$/;"	f	file:
+get_gpio_bank	omap_gpio.c	/^static inline const struct gpio_bank *get_gpio_bank(int gpio)$/;"	f	file:
+get_gpio_dir	adi_gpio2.c	/^unsigned short get_gpio_dir(unsigned gpio)$/;"	f
+get_gpio_enum_id	sh_pfc.c	/^static int get_gpio_enum_id(struct pinmux_info *gpioc, unsigned gpio,$/;"	f	file:
+get_gpio_flag	sandbox.c	/^static int get_gpio_flag(struct udevice *dev, unsigned offset, int flag)$/;"	f	file:
+get_gpio_flags	sandbox.c	/^static u8 *get_gpio_flags(struct udevice *dev, unsigned offset)$/;"	f	file:
+get_gpio_index	omap_gpio.c	/^static inline int get_gpio_index(int gpio)$/;"	f	file:
+get_gpio_offset	db8500_gpio.c	/^static unsigned get_gpio_offset(unsigned gpio)$/;"	f	file:
+get_label	adi_gpio2.c	/^static char *get_label(unsigned short ident)$/;"	f	file:
+get_name	xilinx_gpio.c	/^static char *get_name(unsigned gpio)$/;"	f	file:
+get_portmux	adi_gpio2.c	/^inline u16 get_portmux(unsigned short per)$/;"	f
+gfer	mvgpio.h	/^	u32 gfer;	\/* Falling-Edge Detect Enable Register - 0x003C *\/$/;"	m	struct:gpio_reg
+gpcr	mvgpio.h	/^	u32 gpcr;	\/* Pin Output Clear Register - 0x0024 *\/$/;"	m	struct:gpio_reg
+gpdat	mpc8xxx_gpio.c	/^	u32	gpdat;$/;"	m	struct:ccsr_gpio	file:
+gpdir	mpc8xxx_gpio.c	/^	u32	gpdir;$/;"	m	struct:ccsr_gpio	file:
+gpdr	mvgpio.h	/^	u32 gpdr;	\/* Pin Direction Register - 0x000C *\/$/;"	m	struct:gpio_reg
+gpicr	mpc8xxx_gpio.c	/^	u32	gpicr;$/;"	m	struct:ccsr_gpio	file:
+gpier	mpc8xxx_gpio.c	/^	u32	gpier;$/;"	m	struct:ccsr_gpio	file:
+gpimr	mpc8xxx_gpio.c	/^	u32	gpimr;$/;"	m	struct:ccsr_gpio	file:
+gpio	gpio-uclass.c	/^UCLASS_DRIVER(gpio) = {$/;"	v
+gpio_alloc	xilinx_gpio.c	/^int gpio_alloc(u32 baseaddr, const char *name, u32 gpio_no)$/;"	f
+gpio_alloc_dual	xilinx_gpio.c	/^int gpio_alloc_dual(u32 baseaddr, const char *name, u32 gpio_no0, u32 gpio_no1)$/;"	f
+gpio_at91	at91_gpio.c	/^U_BOOT_DRIVER(gpio_at91) = {$/;"	v
+gpio_at91_ops	at91_gpio.c	/^static const struct dm_gpio_ops gpio_at91_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+gpio_atmel_pio4	atmel_pio4.c	/^U_BOOT_DRIVER(gpio_atmel_pio4) = {$/;"	v
+gpio_axp	axp_gpio.c	/^U_BOOT_DRIVER(gpio_axp) = {$/;"	v
+gpio_axp_ops	axp_gpio.c	/^static const struct dm_gpio_ops gpio_axp_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+gpio_axp_probe	axp_gpio.c	/^static int gpio_axp_probe(struct udevice *dev)$/;"	f	file:
+gpio_bank	omap_gpio.c	/^struct gpio_bank {$/;"	s	file:
+gpio_bank_name	sunxi_gpio.c	/^static char *gpio_bank_name(int bank)$/;"	f	file:
+gpio_bcm2835	bcm2835_gpio.c	/^U_BOOT_DRIVER(gpio_bcm2835) = {$/;"	v
+gpio_bcm2835_ops	bcm2835_gpio.c	/^static const struct dm_gpio_ops gpio_bcm2835_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+gpio_broadwell	intel_broadwell_gpio.c	/^U_BOOT_DRIVER(gpio_broadwell) = {$/;"	v
+gpio_broadwell_ops	intel_broadwell_gpio.c	/^static const struct dm_gpio_ops gpio_broadwell_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+gpio_cfg_pin	s5p_gpio.c	/^void gpio_cfg_pin(int gpio, int cfg)$/;"	f
+gpio_claim_vector	gpio-uclass.c	/^int gpio_claim_vector(const int *gpio_num_array, const char *fmt)$/;"	f
+gpio_clr	lpc32xx_gpio.c	/^static int gpio_clr(struct udevice *dev, unsigned gpio)$/;"	f	file:
+gpio_config_table	tegra_gpio.c	/^void gpio_config_table(const struct tegra_gpio_config *config, int len)$/;"	f
+gpio_count	altera_pio.c	/^	int gpio_count;$/;"	m	struct:altera_pio_platdata	file:
+gpio_count	mpc8xxx_gpio.c	/^	uint gpio_count;$/;"	m	struct:mpc8xxx_gpio_data	file:
+gpio_count	pca953x_gpio.c	/^	int gpio_count;$/;"	m	struct:pca953x_info	file:
+gpio_count	pcf8575_gpio.c	/^	int gpio_count;		\/* No. GPIOs supported by the chip *\/$/;"	m	struct:pcf8575_chip	file:
+gpio_count	sunxi_gpio.c	/^	int gpio_count;$/;"	m	struct:sunxi_gpio_platdata	file:
+gpio_davinci	da8xx_gpio.c	/^U_BOOT_DRIVER(gpio_davinci) = {$/;"	v
+gpio_davinci_ops	da8xx_gpio.c	/^static const struct dm_gpio_ops gpio_davinci_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+gpio_direction	spear_gpio.c	/^static int gpio_direction(unsigned gpio,$/;"	f	file:
+gpio_direction	xilinx_gpio.c	/^enum gpio_direction {$/;"	g	file:
+gpio_direction_input	adi_gpio2.c	/^int gpio_direction_input(unsigned gpio)$/;"	f
+gpio_direction_input	at91_gpio.c	/^int gpio_direction_input(unsigned gpio)$/;"	f
+gpio_direction_input	da8xx_gpio.c	/^int gpio_direction_input(unsigned int gpio)$/;"	f
+gpio_direction_input	gpio-uclass.c	/^int gpio_direction_input(unsigned gpio)$/;"	f
+gpio_direction_input	kona_gpio.c	/^int gpio_direction_input(unsigned gpio)$/;"	f
+gpio_direction_input	mpc83xx_gpio.c	/^int gpio_direction_input(unsigned gpio)$/;"	f
+gpio_direction_input	mvgpio.c	/^int gpio_direction_input(unsigned gpio)$/;"	f
+gpio_direction_input	mxc_gpio.c	/^int gpio_direction_input(unsigned gpio)$/;"	f
+gpio_direction_input	mxs_gpio.c	/^int gpio_direction_input(unsigned gpio)$/;"	f
+gpio_direction_input	omap_gpio.c	/^int gpio_direction_input(unsigned gpio)$/;"	f
+gpio_direction_input	sh_pfc.c	/^int gpio_direction_input(unsigned gpio)$/;"	f
+gpio_direction_input	spear_gpio.c	/^int gpio_direction_input(unsigned gpio)$/;"	f
+gpio_direction_input	sunxi_gpio.c	/^int gpio_direction_input(unsigned gpio)$/;"	f
+gpio_direction_input	xilinx_gpio.c	/^int gpio_direction_input(unsigned gpio)$/;"	f
+gpio_direction_output	adi_gpio2.c	/^int gpio_direction_output(unsigned gpio, int value)$/;"	f
+gpio_direction_output	at91_gpio.c	/^int gpio_direction_output(unsigned gpio, int value)$/;"	f
+gpio_direction_output	da8xx_gpio.c	/^int gpio_direction_output(unsigned int gpio, int value)$/;"	f
+gpio_direction_output	gpio-uclass.c	/^int gpio_direction_output(unsigned gpio, int value)$/;"	f
+gpio_direction_output	kona_gpio.c	/^int gpio_direction_output(unsigned gpio, int value)$/;"	f
+gpio_direction_output	mpc83xx_gpio.c	/^int gpio_direction_output(unsigned gpio, int value)$/;"	f
+gpio_direction_output	mvgpio.c	/^int gpio_direction_output(unsigned gpio, int value)$/;"	f
+gpio_direction_output	mxc_gpio.c	/^int gpio_direction_output(unsigned gpio, int value)$/;"	f
+gpio_direction_output	mxs_gpio.c	/^int gpio_direction_output(unsigned gpio, int value)$/;"	f
+gpio_direction_output	omap_gpio.c	/^int gpio_direction_output(unsigned gpio, int value)$/;"	f
+gpio_direction_output	sh_pfc.c	/^int gpio_direction_output(unsigned gpio, int value)$/;"	f
+gpio_direction_output	spear_gpio.c	/^int gpio_direction_output(unsigned gpio, int value)$/;"	f
+gpio_direction_output	sunxi_gpio.c	/^int gpio_direction_output(unsigned gpio, int value)$/;"	f
+gpio_direction_output	xilinx_gpio.c	/^int gpio_direction_output(unsigned gpio, int value)$/;"	f
+gpio_dwapb	dwapb_gpio.c	/^U_BOOT_DRIVER(gpio_dwapb) = {$/;"	v
+gpio_dwapb_bind	dwapb_gpio.c	/^static int gpio_dwapb_bind(struct udevice *dev)$/;"	f	file:
+gpio_dwapb_ids	dwapb_gpio.c	/^static const struct udevice_id gpio_dwapb_ids[] = {$/;"	v	typeref:struct:udevice_id	file:
+gpio_dwapb_ops	dwapb_gpio.c	/^static const struct dm_gpio_ops gpio_dwapb_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+gpio_dwapb_platdata	dwapb_gpio.c	/^struct gpio_dwapb_platdata {$/;"	s	file:
+gpio_dwapb_probe	dwapb_gpio.c	/^static int gpio_dwapb_probe(struct udevice *dev)$/;"	f	file:
+gpio_error	adi_gpio2.c	/^static void gpio_error(unsigned gpio)$/;"	f	file:
+gpio_exynos	s5p_gpio.c	/^U_BOOT_DRIVER(gpio_exynos) = {$/;"	v
+gpio_exynos_bind	s5p_gpio.c	/^static int gpio_exynos_bind(struct udevice *parent)$/;"	f	file:
+gpio_exynos_ops	s5p_gpio.c	/^static const struct dm_gpio_ops gpio_exynos_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+gpio_exynos_probe	s5p_gpio.c	/^static int gpio_exynos_probe(struct udevice *dev)$/;"	f	file:
+gpio_find_and_xlate	gpio-uclass.c	/^static int gpio_find_and_xlate(struct gpio_desc *desc,$/;"	f	file:
+gpio_free	adi_gpio2.c	/^int gpio_free(unsigned gpio)$/;"	f
+gpio_free	at91_gpio.c	/^int gpio_free(unsigned gpio)$/;"	f
+gpio_free	da8xx_gpio.c	/^int gpio_free(unsigned int gpio)$/;"	f
+gpio_free	gpio-uclass.c	/^int gpio_free(unsigned gpio)$/;"	f
+gpio_free	kona_gpio.c	/^int gpio_free(unsigned gpio)$/;"	f
+gpio_free	mpc83xx_gpio.c	/^int gpio_free(unsigned gpio)$/;"	f
+gpio_free	mvgpio.c	/^int gpio_free(unsigned gpio)$/;"	f
+gpio_free	mxc_gpio.c	/^int gpio_free(unsigned gpio)$/;"	f
+gpio_free	mxs_gpio.c	/^int gpio_free(unsigned gpio)$/;"	f
+gpio_free	omap_gpio.c	/^int gpio_free(unsigned gpio)$/;"	f
+gpio_free	sh_pfc.c	/^int gpio_free(unsigned gpio)$/;"	f
+gpio_free	spear_gpio.c	/^int gpio_free(unsigned gpio)$/;"	f
+gpio_free	sunxi_gpio.c	/^int gpio_free(unsigned gpio)$/;"	f
+gpio_free	xilinx_gpio.c	/^int gpio_free(unsigned gpio)$/;"	f
+gpio_free_list	gpio-uclass.c	/^int gpio_free_list(struct udevice *dev, struct gpio_desc *desc, int count)$/;"	f
+gpio_free_list_nodev	gpio-uclass.c	/^int gpio_free_list_nodev(struct gpio_desc *desc, int count)$/;"	f
+gpio_function	gpio-uclass.c	/^static const char * const gpio_function[GPIOF_COUNT] = {$/;"	v	file:
+gpio_get_bank_info	gpio-uclass.c	/^const char *gpio_get_bank_info(struct udevice *dev, int *bit_count)$/;"	f
+gpio_get_controller	xilinx_gpio.c	/^static struct xilinx_gpio_priv *gpio_get_controller(unsigned gpio)$/;"	f	file:
+gpio_get_direction	xilinx_gpio.c	/^static int gpio_get_direction(unsigned gpio)$/;"	f	file:
+gpio_get_function	gpio-uclass.c	/^int gpio_get_function(struct udevice *dev, int offset, const char **namep)$/;"	f
+gpio_get_input_value	xilinx_gpio.c	/^static int gpio_get_input_value(unsigned gpio)$/;"	f	file:
+gpio_get_list_count	gpio-uclass.c	/^int gpio_get_list_count(struct udevice *dev, const char *list_name)$/;"	f
+gpio_get_number	gpio-uclass.c	/^int gpio_get_number(const struct gpio_desc *desc)$/;"	f
+gpio_get_output_value	xilinx_gpio.c	/^static int gpio_get_output_value(unsigned gpio)$/;"	f	file:
+gpio_get_raw_function	gpio-uclass.c	/^int gpio_get_raw_function(struct udevice *dev, int offset, const char **namep)$/;"	f
+gpio_get_status	gpio-uclass.c	/^int gpio_get_status(struct udevice *dev, int offset, char *buf, int buffsize)$/;"	f
+gpio_get_value	adi_gpio2.c	/^int gpio_get_value(unsigned gpio)$/;"	f
+gpio_get_value	at91_gpio.c	/^int gpio_get_value(unsigned gpio)$/;"	f
+gpio_get_value	da8xx_gpio.c	/^int gpio_get_value(unsigned int gpio)$/;"	f
+gpio_get_value	gpio-uclass.c	/^int gpio_get_value(unsigned gpio)$/;"	f
+gpio_get_value	kona_gpio.c	/^int gpio_get_value(unsigned gpio)$/;"	f
+gpio_get_value	mpc83xx_gpio.c	/^int gpio_get_value(unsigned gpio)$/;"	f
+gpio_get_value	mvgpio.c	/^int gpio_get_value(unsigned gpio)$/;"	f
+gpio_get_value	mxc_gpio.c	/^int gpio_get_value(unsigned gpio)$/;"	f
+gpio_get_value	mxs_gpio.c	/^int gpio_get_value(unsigned gpio)$/;"	f
+gpio_get_value	omap_gpio.c	/^int gpio_get_value(unsigned gpio)$/;"	f
+gpio_get_value	sh_pfc.c	/^int gpio_get_value(unsigned gpio)$/;"	f
+gpio_get_value	spear_gpio.c	/^int gpio_get_value(unsigned gpio)$/;"	f
+gpio_get_value	sunxi_gpio.c	/^int gpio_get_value(unsigned gpio)$/;"	f
+gpio_get_value	xilinx_gpio.c	/^int gpio_get_value(unsigned gpio)$/;"	f
+gpio_get_values_as_int	gpio-uclass.c	/^int gpio_get_values_as_int(const int *gpio_list)$/;"	f
+gpio_hi6220	hi6220_gpio.c	/^U_BOOT_DRIVER(gpio_hi6220) = {$/;"	v
+gpio_hi6220_ops	hi6220_gpio.c	/^static const struct dm_gpio_ops gpio_hi6220_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+gpio_hsdk_creg	hsdk-creg-gpio.c	/^U_BOOT_DRIVER(gpio_hsdk_creg) = {$/;"	v
+gpio_ich6	intel_ich6_gpio.c	/^U_BOOT_DRIVER(gpio_ich6) = {$/;"	v
+gpio_ich6_ofdata_to_platdata	intel_ich6_gpio.c	/^static int gpio_ich6_ofdata_to_platdata(struct udevice *dev)$/;"	f	file:
+gpio_ich6_ops	intel_ich6_gpio.c	/^static const struct dm_gpio_ops gpio_ich6_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+gpio_info	da8xx_gpio.c	/^void gpio_info(void)$/;"	f
+gpio_info	xilinx_gpio.c	/^void gpio_info(void)$/;"	f
+gpio_is_valid	omap_gpio.c	/^int gpio_is_valid(int gpio)$/;"	f
+gpio_is_valid	zynq_gpio.c	/^static int gpio_is_valid(unsigned gpio, struct udevice *dev)$/;"	f	file:
+gpio_labels	adi_gpio2.c	/^void gpio_labels(void)$/;"	f
+gpio_lookup_name	gpio-uclass.c	/^int gpio_lookup_name(const char *name, struct udevice **devp,$/;"	f
+gpio_lpc32xx	lpc32xx_gpio.c	/^U_BOOT_DRIVER(gpio_lpc32xx) = {$/;"	v
+gpio_lpc32xx_ops	lpc32xx_gpio.c	/^static const struct dm_gpio_ops gpio_lpc32xx_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+gpio_mask	mpc8xxx_gpio.c	/^inline u32 gpio_mask(uint gpio)$/;"	f
+gpio_max	xilinx_gpio.c	/^	u32 gpio_max;$/;"	m	struct:xilinx_gpio_priv	file:
+gpio_min	xilinx_gpio.c	/^	u32 gpio_min;$/;"	m	struct:xilinx_gpio_priv	file:
+gpio_mpc8xxx	mpc8xxx_gpio.c	/^U_BOOT_DRIVER(gpio_mpc8xxx) = {$/;"	v
+gpio_mpc8xxx_ops	mpc8xxx_gpio.c	/^static const struct dm_gpio_ops gpio_mpc8xxx_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+gpio_msm	msm_gpio.c	/^U_BOOT_DRIVER(gpio_msm) = {$/;"	v
+gpio_msm_ops	msm_gpio.c	/^static const struct dm_gpio_ops gpio_msm_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+gpio_mvebu	mvebu_gpio.c	/^U_BOOT_DRIVER(gpio_mvebu) = {$/;"	v
+gpio_mxc	mxc_gpio.c	/^U_BOOT_DRIVER(gpio_mxc) = {$/;"	v
+gpio_mxc_ops	mxc_gpio.c	/^static const struct dm_gpio_ops gpio_mxc_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+gpio_name	xilinx_gpio.c	/^	struct gpio_names *gpio_name;$/;"	m	struct:xilinx_gpio_priv	typeref:struct:xilinx_gpio_priv::gpio_names	file:
+gpio_names	xilinx_gpio.c	/^struct gpio_names {$/;"	s	file:
+gpio_omap	omap_gpio.c	/^U_BOOT_DRIVER(gpio_omap) = {$/;"	v
+gpio_omap_ops	omap_gpio.c	/^static const struct dm_gpio_ops gpio_omap_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+gpio_output_value	mpc83xx_gpio.c	/^static unsigned int gpio_output_value[MPC83XX_GPIO_CTRLRS];$/;"	v	file:
+gpio_pcf8575	pcf8575_gpio.c	/^U_BOOT_DRIVER(gpio_pcf8575) = {$/;"	v
+gpio_pic32	pic32_gpio.c	/^U_BOOT_DRIVER(gpio_pic32) = {$/;"	v
+gpio_pic32_ops	pic32_gpio.c	/^static const struct dm_gpio_ops gpio_pic32_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+gpio_pinmux	da8xx_gpio.c	/^static const struct pinmux_config gpio_pinmux[] = {$/;"	v	typeref:struct:pinmux_config	file:
+gpio_pm8916	pm8916_gpio.c	/^U_BOOT_DRIVER(gpio_pm8916) = {$/;"	v
+gpio_port_name	tegra_gpio.c	/^static char *gpio_port_name(int base_port)$/;"	f	file:
+gpio_ports	mxc_gpio.c	/^static unsigned long gpio_ports[] = {$/;"	v	file:
+gpio_post_probe	gpio-uclass.c	/^static int gpio_post_probe(struct udevice *dev)$/;"	f	file:
+gpio_pre_remove	gpio-uclass.c	/^static int gpio_pre_remove(struct udevice *dev)$/;"	f	file:
+gpio_read_bit	sh_pfc.c	/^static int gpio_read_bit(struct pinmux_data_reg *dr,$/;"	f	file:
+gpio_read_raw_reg	sh_pfc.c	/^static unsigned long gpio_read_raw_reg(void *mapped_reg,$/;"	f	file:
+gpio_reg	mvgpio.h	/^struct gpio_reg {$/;"	s
+gpio_registry	da8xx_gpio.c	/^static struct gpio_registry {$/;"	s	file:
+gpio_registry	da8xx_gpio.c	/^} gpio_registry[MAX_NUM_GPIOS];$/;"	v	typeref:struct:gpio_registry	file:
+gpio_regs	xilinx_gpio.c	/^struct gpio_regs {$/;"	s	file:
+gpio_renumber	gpio-uclass.c	/^static int gpio_renumber(struct udevice *removed_dev)$/;"	f	file:
+gpio_request	adi_gpio2.c	/^int gpio_request(unsigned gpio, const char *label)$/;"	f
+gpio_request	at91_gpio.c	/^int gpio_request(unsigned gpio, const char *label)$/;"	f
+gpio_request	da8xx_gpio.c	/^int gpio_request(unsigned int gpio, const char *label)$/;"	f
+gpio_request	gpio-uclass.c	/^int gpio_request(unsigned gpio, const char *label)$/;"	f
+gpio_request	kona_gpio.c	/^int gpio_request(unsigned gpio, const char *label)$/;"	f
+gpio_request	mpc83xx_gpio.c	/^int gpio_request(unsigned gpio, const char *label)$/;"	f
+gpio_request	mvgpio.c	/^int gpio_request(unsigned gpio, const char *label)$/;"	f
+gpio_request	mxc_gpio.c	/^int gpio_request(unsigned gpio, const char *label)$/;"	f
+gpio_request	mxs_gpio.c	/^int gpio_request(unsigned gpio, const char *label)$/;"	f
+gpio_request	omap_gpio.c	/^int gpio_request(unsigned gpio, const char *label)$/;"	f
+gpio_request	sh_pfc.c	/^int gpio_request(unsigned gpio, const char *label)$/;"	f
+gpio_request	spear_gpio.c	/^int gpio_request(unsigned gpio, const char *label)$/;"	f
+gpio_request	sunxi_gpio.c	/^int gpio_request(unsigned gpio, const char *label)$/;"	f
+gpio_request	xilinx_gpio.c	/^int gpio_request(unsigned gpio, const char *label)$/;"	f
+gpio_request_by_name	gpio-uclass.c	/^int gpio_request_by_name(struct udevice *dev, const char *list_name, int index,$/;"	f
+gpio_request_by_name_nodev	gpio-uclass.c	/^int gpio_request_by_name_nodev(ofnode node, const char *list_name, int index,$/;"	f
+gpio_request_list_by_name	gpio-uclass.c	/^int gpio_request_list_by_name(struct udevice *dev, const char *list_name,$/;"	f
+gpio_request_list_by_name_nodev	gpio-uclass.c	/^int gpio_request_list_by_name_nodev(ofnode node, const char *list_name,$/;"	f
+gpio_request_tail	gpio-uclass.c	/^static int gpio_request_tail(int ret, ofnode node,$/;"	f	file:
+gpio_requestf	gpio-uclass.c	/^int gpio_requestf(unsigned gpio, const char *fmt, ...)$/;"	f
+gpio_rockchip	rk_gpio.c	/^U_BOOT_DRIVER(gpio_rockchip) = {$/;"	v
+gpio_rockchip_ops	rk_gpio.c	/^static const struct dm_gpio_ops gpio_rockchip_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+gpio_sandbox	sandbox.c	/^U_BOOT_DRIVER(gpio_sandbox) = {$/;"	v
+gpio_sandbox_ops	sandbox.c	/^static const struct dm_gpio_ops gpio_sandbox_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+gpio_sandbox_probe	sandbox.c	/^static int gpio_sandbox_probe(struct udevice *dev)$/;"	f	file:
+gpio_sandbox_remove	sandbox.c	/^static int gpio_sandbox_remove(struct udevice *dev)$/;"	f	file:
+gpio_set	lpc32xx_gpio.c	/^static int gpio_set(struct udevice *dev, unsigned gpio)$/;"	f	file:
+gpio_set_direction	xilinx_gpio.c	/^static int gpio_set_direction(unsigned gpio, enum gpio_direction direction)$/;"	f	file:
+gpio_set_drv	s5p_gpio.c	/^void gpio_set_drv(int gpio, int mode)$/;"	f
+gpio_set_mode	db8500_gpio.c	/^static void gpio_set_mode(unsigned gpio, enum db8500_gpio_alt mode)$/;"	f	file:
+gpio_set_output_value	xilinx_gpio.c	/^static int gpio_set_output_value(unsigned gpio, int value)$/;"	f	file:
+gpio_set_pull	s5p_gpio.c	/^void gpio_set_pull(int gpio, int mode)$/;"	f
+gpio_set_rate	s5p_gpio.c	/^void gpio_set_rate(int gpio, int mode)$/;"	f
+gpio_set_value	adi_gpio2.c	/^int gpio_set_value(unsigned gpio, int arg)$/;"	f
+gpio_set_value	at91_gpio.c	/^int gpio_set_value(unsigned gpio, int value)$/;"	f
+gpio_set_value	da8xx_gpio.c	/^int gpio_set_value(unsigned int gpio, int value)$/;"	f
+gpio_set_value	gpio-uclass.c	/^int gpio_set_value(unsigned gpio, int value)$/;"	f
+gpio_set_value	kona_gpio.c	/^void gpio_set_value(unsigned gpio, int value)$/;"	f
+gpio_set_value	mpc83xx_gpio.c	/^int gpio_set_value(unsigned gpio, int value)$/;"	f
+gpio_set_value	mvgpio.c	/^int gpio_set_value(unsigned gpio, int value)$/;"	f
+gpio_set_value	mxc_gpio.c	/^int gpio_set_value(unsigned gpio, int value)$/;"	f
+gpio_set_value	mxs_gpio.c	/^void gpio_set_value(unsigned gpio, int value)$/;"	f
+gpio_set_value	omap_gpio.c	/^int gpio_set_value(unsigned gpio, int value)$/;"	f
+gpio_set_value	s5p_gpio.c	/^int gpio_set_value(unsigned gpio, int value)$/;"	f
+gpio_set_value	sh_pfc.c	/^void gpio_set_value(unsigned gpio, int value)$/;"	f
+gpio_set_value	spear_gpio.c	/^int gpio_set_value(unsigned gpio, int value)$/;"	f
+gpio_set_value	sunxi_gpio.c	/^int gpio_set_value(unsigned gpio, int value)$/;"	f
+gpio_set_value	xilinx_gpio.c	/^int gpio_set_value(unsigned gpio, int value)$/;"	f
+gpio_state	sandbox.c	/^struct gpio_state {$/;"	s	file:
+gpio_stm32	stm32f7_gpio.c	/^U_BOOT_DRIVER(gpio_stm32) = {$/;"	v
+gpio_stm32_ops	stm32f7_gpio.c	/^static const struct dm_gpio_ops gpio_stm32_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+gpio_stm32_probe	stm32f7_gpio.c	/^static int gpio_stm32_probe(struct udevice *dev)$/;"	f	file:
+gpio_sunxi	sunxi_gpio.c	/^U_BOOT_DRIVER(gpio_sunxi) = {$/;"	v
+gpio_sunxi_bind	sunxi_gpio.c	/^static int gpio_sunxi_bind(struct udevice *parent)$/;"	f	file:
+gpio_sunxi_ops	sunxi_gpio.c	/^static const struct dm_gpio_ops gpio_sunxi_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+gpio_sunxi_probe	sunxi_gpio.c	/^static int gpio_sunxi_probe(struct udevice *dev)$/;"	f	file:
+gpio_tegra	tegra_gpio.c	/^U_BOOT_DRIVER(gpio_tegra) = {$/;"	v
+gpio_tegra_bind	tegra_gpio.c	/^static int gpio_tegra_bind(struct udevice *parent)$/;"	f	file:
+gpio_tegra_ops	tegra_gpio.c	/^static const struct dm_gpio_ops gpio_tegra_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+gpio_tegra_probe	tegra_gpio.c	/^static int gpio_tegra_probe(struct udevice *dev)$/;"	f	file:
+gpio_to_device	gpio-uclass.c	/^static int gpio_to_device(unsigned int gpio, struct gpio_desc *desc)$/;"	f	file:
+gpio_toggle_value	spear_gpio.c	/^void gpio_toggle_value(unsigned gpio)$/;"	f
+gpio_valid_input	kw_gpio.c	/^static unsigned long gpio_valid_input[BITS_TO_LONGS(GPIO_MAX)];$/;"	v	file:
+gpio_valid_output	kw_gpio.c	/^static unsigned long gpio_valid_output[BITS_TO_LONGS(GPIO_MAX)];$/;"	v	file:
+gpio_vybrid	vybrid_gpio.c	/^U_BOOT_DRIVER(gpio_vybrid) = {$/;"	v
+gpio_vybrid_ops	vybrid_gpio.c	/^static const struct dm_gpio_ops gpio_vybrid_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+gpio_write_bit	sh_pfc.c	/^static void gpio_write_bit(struct pinmux_data_reg *dr,$/;"	f	file:
+gpio_write_raw_reg	sh_pfc.c	/^static void gpio_write_raw_reg(void *mapped_reg,$/;"	f	file:
+gpio_xlate_offs_flags	gpio-uclass.c	/^int gpio_xlate_offs_flags(struct udevice *dev, struct gpio_desc *desc,$/;"	f
+gpio_zynq	zynq_gpio.c	/^U_BOOT_DRIVER(gpio_zynq) = {$/;"	v
+gpio_zynq_ops	zynq_gpio.c	/^static const struct dm_gpio_ops gpio_zynq_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+gpioc	sh_pfc.c	/^static struct pinmux_info *gpioc;$/;"	v	typeref:struct:pinmux_info	file:
+gpiodata	xilinx_gpio.c	/^	u32 gpiodata;$/;"	m	struct:gpio_regs	file:
+gpiodata_store	xilinx_gpio.c	/^	u32 gpiodata_store;$/;"	m	struct:xilinx_gpio_priv	file:
+gpiodir	xilinx_gpio.c	/^	u32 gpiodir;$/;"	m	struct:gpio_regs	file:
+gplr	mvgpio.h	/^	u32 gplr;	\/* Pin Level Register - 0x0000 *\/$/;"	m	struct:gpio_reg
+gpodr	mpc8xxx_gpio.c	/^	u32	gpodr;$/;"	m	struct:ccsr_gpio	file:
+gpsr	mvgpio.h	/^	u32 gpsr;	\/* Pin Output Set Register - 0x0018 *\/$/;"	m	struct:gpio_reg
+grer	mvgpio.h	/^	u32 grer;	\/* Rising-Edge Detect Enable Register - 0x0030 *\/$/;"	m	struct:gpio_reg
+gsdr	mvgpio.h	/^	u32 gsdr;	\/* Bitwise Set of GPIO Direction Register - 0x0054 *\/$/;"	m	struct:gpio_reg
+gsfer	mvgpio.h	/^	u32 gsfer;	\/* Bitwise Set of Falling-Edge Detect Enable$/;"	m	struct:gpio_reg
+gsrer	mvgpio.h	/^	u32 gsrer;	\/* Bitwise Set of Rising-Edge Detect Enable$/;"	m	struct:gpio_reg
+hi6220_gpio_direction_input	hi6220_gpio.c	/^static int hi6220_gpio_direction_input(struct udevice *dev, unsigned int gpio)$/;"	f	file:
+hi6220_gpio_direction_output	hi6220_gpio.c	/^static int hi6220_gpio_direction_output(struct udevice *dev, unsigned gpio,$/;"	f	file:
+hi6220_gpio_get_value	hi6220_gpio.c	/^static int hi6220_gpio_get_value(struct udevice *dev, unsigned gpio)$/;"	f	file:
+hi6220_gpio_probe	hi6220_gpio.c	/^static int hi6220_gpio_probe(struct udevice *dev)$/;"	f	file:
+hi6220_gpio_set_value	hi6220_gpio.c	/^static int hi6220_gpio_set_value(struct udevice *dev, unsigned gpio,$/;"	f	file:
+hsdk_creg_gpio	hsdk-creg-gpio.c	/^struct hsdk_creg_gpio {$/;"	s	file:
+hsdk_creg_gpio_direction_input	hsdk-creg-gpio.c	/^static int hsdk_creg_gpio_direction_input(struct udevice *dev, unsigned oft)$/;"	f	file:
+hsdk_creg_gpio_direction_output	hsdk-creg-gpio.c	/^static int hsdk_creg_gpio_direction_output(struct udevice *dev, unsigned oft,$/;"	f	file:
+hsdk_creg_gpio_get_value	hsdk-creg-gpio.c	/^static int hsdk_creg_gpio_get_value(struct udevice *dev, unsigned int oft)$/;"	f	file:
+hsdk_creg_gpio_ids	hsdk-creg-gpio.c	/^static const struct udevice_id hsdk_creg_gpio_ids[] = {$/;"	v	typeref:struct:udevice_id	file:
+hsdk_creg_gpio_ops	hsdk-creg-gpio.c	/^static const struct dm_gpio_ops hsdk_creg_gpio_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+hsdk_creg_gpio_probe	hsdk-creg-gpio.c	/^static int hsdk_creg_gpio_probe(struct udevice *dev)$/;"	f	file:
+hsdk_creg_gpio_set_value	hsdk-creg-gpio.c	/^static int hsdk_creg_gpio_set_value(struct udevice *dev, unsigned oft, int val)$/;"	f	file:
+ich6_bank_priv	intel_ich6_gpio.c	/^struct ich6_bank_priv {$/;"	s	file:
+ich6_gpio_direction_input	intel_ich6_gpio.c	/^static int ich6_gpio_direction_input(struct udevice *dev, unsigned offset)$/;"	f	file:
+ich6_gpio_direction_output	intel_ich6_gpio.c	/^static int ich6_gpio_direction_output(struct udevice *dev, unsigned offset,$/;"	f	file:
+ich6_gpio_get_function	intel_ich6_gpio.c	/^static int ich6_gpio_get_function(struct udevice *dev, unsigned offset)$/;"	f	file:
+ich6_gpio_get_value	intel_ich6_gpio.c	/^static int ich6_gpio_get_value(struct udevice *dev, unsigned offset)$/;"	f	file:
+ich6_gpio_probe	intel_ich6_gpio.c	/^static int ich6_gpio_probe(struct udevice *dev)$/;"	f	file:
+ich6_gpio_request	intel_ich6_gpio.c	/^static int ich6_gpio_request(struct udevice *dev, unsigned offset,$/;"	f	file:
+ich6_gpio_set_value	intel_ich6_gpio.c	/^static int ich6_gpio_set_value(struct udevice *dev, unsigned offset,$/;"	f	file:
+imx_plat	imx_rgpio2p.c	/^static const struct imx_rgpio2p_plat imx_plat[] = {$/;"	v	typeref:struct:imx_rgpio2p_plat	file:
+imx_rgpio2p	imx_rgpio2p.c	/^U_BOOT_DRIVER(imx_rgpio2p) = {$/;"	v
+imx_rgpio2p_bank_direction	imx_rgpio2p.c	/^static void imx_rgpio2p_bank_direction(struct gpio_regs *regs, int offset,$/;"	f	file:
+imx_rgpio2p_bank_get_value	imx_rgpio2p.c	/^static int imx_rgpio2p_bank_get_value(struct gpio_regs *regs, int offset)$/;"	f	file:
+imx_rgpio2p_bank_set_value	imx_rgpio2p.c	/^static void imx_rgpio2p_bank_set_value(struct gpio_regs *regs, int offset,$/;"	f	file:
+imx_rgpio2p_bind	imx_rgpio2p.c	/^static int imx_rgpio2p_bind(struct udevice *dev)$/;"	f	file:
+imx_rgpio2p_data	imx_rgpio2p.c	/^struct imx_rgpio2p_data {$/;"	s	file:
+imx_rgpio2p_direction	imx_rgpio2p.c	/^enum imx_rgpio2p_direction {$/;"	g	file:
+imx_rgpio2p_direction_input	imx_rgpio2p.c	/^static int  imx_rgpio2p_direction_input(struct udevice *dev, unsigned offset)$/;"	f	file:
+imx_rgpio2p_direction_output	imx_rgpio2p.c	/^static int imx_rgpio2p_direction_output(struct udevice *dev, unsigned offset,$/;"	f	file:
+imx_rgpio2p_get_function	imx_rgpio2p.c	/^static int imx_rgpio2p_get_function(struct udevice *dev, unsigned offset)$/;"	f	file:
+imx_rgpio2p_get_value	imx_rgpio2p.c	/^static int imx_rgpio2p_get_value(struct udevice *dev, unsigned offset)$/;"	f	file:
+imx_rgpio2p_ids	imx_rgpio2p.c	/^static const struct udevice_id imx_rgpio2p_ids[] = {$/;"	v	typeref:struct:udevice_id	file:
+imx_rgpio2p_is_output	imx_rgpio2p.c	/^static int imx_rgpio2p_is_output(struct gpio_regs *regs, int offset)$/;"	f	file:
+imx_rgpio2p_ops	imx_rgpio2p.c	/^static const struct dm_gpio_ops imx_rgpio2p_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+imx_rgpio2p_plat	imx_rgpio2p.c	/^struct imx_rgpio2p_plat {$/;"	s	file:
+imx_rgpio2p_probe	imx_rgpio2p.c	/^static int imx_rgpio2p_probe(struct udevice *dev)$/;"	f	file:
+imx_rgpio2p_set_value	imx_rgpio2p.c	/^static int imx_rgpio2p_set_value(struct udevice *dev, unsigned offset,$/;"	f	file:
+imx_rgpio2ps	imx_rgpio2p.c	/^U_BOOT_DEVICES(imx_rgpio2ps) = {$/;"	v
+in_pol	mvebu_gpio.c	/^	u32 in_pol;$/;"	m	struct:mvebu_gpio_regs	file:
+intel_broadwell_gpio_ids	intel_broadwell_gpio.c	/^static const struct udevice_id intel_broadwell_gpio_ids[] = {$/;"	v	typeref:struct:udevice_id	file:
+intel_ich6_gpio_ids	intel_ich6_gpio.c	/^static const struct udevice_id intel_ich6_gpio_ids[] = {$/;"	v	typeref:struct:udevice_id	file:
+invert	pca953x_gpio.c	/^	int invert;$/;"	m	struct:pca953x_info	file:
+io_conf	mvebu_gpio.c	/^	u32 io_conf;$/;"	m	struct:mvebu_gpio_regs	file:
+io_sel	intel_ich6_gpio.c	/^	uint16_t io_sel;$/;"	m	struct:ich6_bank_priv	file:
+is_registered	da8xx_gpio.c	/^	int is_registered;$/;"	m	struct:gpio_registry	file:
+is_reserved	adi_gpio2.c	51;"	d	file:
+kw_gpio_direction_input	kw_gpio.c	/^int kw_gpio_direction_input(unsigned pin)$/;"	f
+kw_gpio_direction_output	kw_gpio.c	/^int kw_gpio_direction_output(unsigned pin, int value)$/;"	f
+kw_gpio_get_value	kw_gpio.c	/^int kw_gpio_get_value(unsigned pin)$/;"	f
+kw_gpio_is_valid	kw_gpio.c	/^int kw_gpio_is_valid(unsigned pin, int mode)$/;"	f
+kw_gpio_set_blink	kw_gpio.c	/^void kw_gpio_set_blink(unsigned pin, int blink)$/;"	f
+kw_gpio_set_valid	kw_gpio.c	/^void kw_gpio_set_valid(unsigned pin, int mode)$/;"	f
+kw_gpio_set_value	kw_gpio.c	/^void kw_gpio_set_value(unsigned pin, int value)$/;"	f
+label	sandbox.c	/^	const char *label;	\/* label given by requester *\/$/;"	m	struct:gpio_state	file:
+label	zynq_gpio.c	/^	const char *label;$/;"	m	struct:zynq_platform_data	file:
+lat	pic32_gpio.c	/^	struct pic32_reg_atomic lat;$/;"	m	struct:pic32_reg_port	typeref:struct:pic32_reg_port::pic32_reg_atomic	file:
+list	xilinx_gpio.c	/^	struct list_head list;$/;"	m	struct:xilinx_gpio_priv	typeref:struct:xilinx_gpio_priv::list_head	file:
+lpc32xx_gpio_direction_input	lpc32xx_gpio.c	/^static int lpc32xx_gpio_direction_input(struct udevice *dev, unsigned offset)$/;"	f	file:
+lpc32xx_gpio_direction_output	lpc32xx_gpio.c	/^static int lpc32xx_gpio_direction_output(struct udevice *dev, unsigned offset,$/;"	f	file:
+lpc32xx_gpio_get_function	lpc32xx_gpio.c	/^static int lpc32xx_gpio_get_function(struct udevice *dev, unsigned offset)$/;"	f	file:
+lpc32xx_gpio_get_value	lpc32xx_gpio.c	/^static int lpc32xx_gpio_get_value(struct udevice *dev, unsigned offset)$/;"	f	file:
+lpc32xx_gpio_priv	lpc32xx_gpio.c	/^struct lpc32xx_gpio_priv {$/;"	s	file:
+lpc32xx_gpio_probe	lpc32xx_gpio.c	/^static int lpc32xx_gpio_probe(struct udevice *dev)$/;"	f	file:
+lpc32xx_gpio_set_value	lpc32xx_gpio.c	/^static int lpc32xx_gpio_set_value(struct udevice *dev, unsigned offset,$/;"	f	file:
+lvl	intel_ich6_gpio.c	/^	uint16_t lvl;$/;"	m	struct:ich6_bank_priv	file:
+lvl_write_cache	intel_ich6_gpio.c	/^	u32 lvl_write_cache;$/;"	m	struct:ich6_bank_priv	file:
+map_entry	adi_gpio2.c	50;"	d	file:
+max_bank	zynq_gpio.c	/^	u32 max_bank;$/;"	m	struct:zynq_platform_data	file:
+mfp_config	mvmfp.c	/^void mfp_config(u32 *mfp_cfgs)$/;"	f
+mpc83xx_gpio_init_f	mpc83xx_gpio.c	/^void mpc83xx_gpio_init_f(void)$/;"	f
+mpc83xx_gpio_init_r	mpc83xx_gpio.c	/^void mpc83xx_gpio_init_r(void)$/;"	f
+mpc8xxx_gpio_data	mpc8xxx_gpio.c	/^struct mpc8xxx_gpio_data {$/;"	s	file:
+mpc8xxx_gpio_direction_input	mpc8xxx_gpio.c	/^static int mpc8xxx_gpio_direction_input(struct udevice *dev, uint gpio)$/;"	f	file:
+mpc8xxx_gpio_direction_output	mpc8xxx_gpio.c	/^static int mpc8xxx_gpio_direction_output(struct udevice *dev, uint gpio,$/;"	f	file:
+mpc8xxx_gpio_get_dir	mpc8xxx_gpio.c	/^static inline u32 mpc8xxx_gpio_get_dir(struct ccsr_gpio *base, u32 mask)$/;"	f	file:
+mpc8xxx_gpio_get_function	mpc8xxx_gpio.c	/^static int mpc8xxx_gpio_get_function(struct udevice *dev, uint gpio)$/;"	f	file:
+mpc8xxx_gpio_get_open_drain	mpc8xxx_gpio.c	/^static int mpc8xxx_gpio_get_open_drain(struct udevice *dev, uint gpio)$/;"	f	file:
+mpc8xxx_gpio_get_val	mpc8xxx_gpio.c	/^static inline u32 mpc8xxx_gpio_get_val(struct ccsr_gpio *base, u32 mask)$/;"	f	file:
+mpc8xxx_gpio_get_value	mpc8xxx_gpio.c	/^static int mpc8xxx_gpio_get_value(struct udevice *dev, uint gpio)$/;"	f	file:
+mpc8xxx_gpio_ids	mpc8xxx_gpio.c	/^static const struct udevice_id mpc8xxx_gpio_ids[] = {$/;"	v	typeref:struct:udevice_id	file:
+mpc8xxx_gpio_ofdata_to_platdata	mpc8xxx_gpio.c	/^static int mpc8xxx_gpio_ofdata_to_platdata(struct udevice *dev)$/;"	f	file:
+mpc8xxx_gpio_open_drain_off	mpc8xxx_gpio.c	/^static inline void mpc8xxx_gpio_open_drain_off(struct ccsr_gpio *base,$/;"	f	file:
+mpc8xxx_gpio_open_drain_on	mpc8xxx_gpio.c	/^static inline void mpc8xxx_gpio_open_drain_on(struct ccsr_gpio *base, u32$/;"	f	file:
+mpc8xxx_gpio_open_drain_val	mpc8xxx_gpio.c	/^static inline int mpc8xxx_gpio_open_drain_val(struct ccsr_gpio *base, u32 mask)$/;"	f	file:
+mpc8xxx_gpio_platdata_to_priv	mpc8xxx_gpio.c	/^static int mpc8xxx_gpio_platdata_to_priv(struct udevice *dev)$/;"	f	file:
+mpc8xxx_gpio_probe	mpc8xxx_gpio.c	/^static int mpc8xxx_gpio_probe(struct udevice *dev)$/;"	f	file:
+mpc8xxx_gpio_set_high	mpc8xxx_gpio.c	/^static inline void mpc8xxx_gpio_set_high(struct ccsr_gpio *base, u32 gpios)$/;"	f	file:
+mpc8xxx_gpio_set_in	mpc8xxx_gpio.c	/^static inline void mpc8xxx_gpio_set_in(struct ccsr_gpio *base, u32 gpios)$/;"	f	file:
+mpc8xxx_gpio_set_low	mpc8xxx_gpio.c	/^static inline void mpc8xxx_gpio_set_low(struct ccsr_gpio *base, u32 gpios)$/;"	f	file:
+mpc8xxx_gpio_set_open_drain	mpc8xxx_gpio.c	/^static int mpc8xxx_gpio_set_open_drain(struct udevice *dev, uint gpio,$/;"	f	file:
+mpc8xxx_gpio_set_value	mpc8xxx_gpio.c	/^static int mpc8xxx_gpio_set_value(struct udevice *dev, uint gpio, int value)$/;"	f	file:
+msm_gpio_bank	msm_gpio.c	/^struct msm_gpio_bank {$/;"	s	file:
+msm_gpio_direction_input	msm_gpio.c	/^static int msm_gpio_direction_input(struct udevice *dev, unsigned int gpio)$/;"	f	file:
+msm_gpio_direction_output	msm_gpio.c	/^static int msm_gpio_direction_output(struct udevice *dev, unsigned gpio,$/;"	f	file:
+msm_gpio_get_function	msm_gpio.c	/^static int msm_gpio_get_function(struct udevice *dev, unsigned offset)$/;"	f	file:
+msm_gpio_get_value	msm_gpio.c	/^static int msm_gpio_get_value(struct udevice *dev, unsigned gpio)$/;"	f	file:
+msm_gpio_ids	msm_gpio.c	/^static const struct udevice_id msm_gpio_ids[] = {$/;"	v	typeref:struct:udevice_id	file:
+msm_gpio_ofdata_to_platdata	msm_gpio.c	/^static int msm_gpio_ofdata_to_platdata(struct udevice *dev)$/;"	f	file:
+msm_gpio_probe	msm_gpio.c	/^static int msm_gpio_probe(struct udevice *dev)$/;"	f	file:
+msm_gpio_set_value	msm_gpio.c	/^static int msm_gpio_set_value(struct udevice *dev, unsigned gpio, int value)$/;"	f	file:
+mvebu_gpio_direction_input	mvebu_gpio.c	/^static int mvebu_gpio_direction_input(struct udevice *dev, unsigned int gpio)$/;"	f	file:
+mvebu_gpio_direction_output	mvebu_gpio.c	/^static int mvebu_gpio_direction_output(struct udevice *dev, unsigned gpio,$/;"	f	file:
+mvebu_gpio_get_function	mvebu_gpio.c	/^static int mvebu_gpio_get_function(struct udevice *dev, unsigned gpio)$/;"	f	file:
+mvebu_gpio_get_value	mvebu_gpio.c	/^static int mvebu_gpio_get_value(struct udevice *dev, unsigned gpio)$/;"	f	file:
+mvebu_gpio_ids	mvebu_gpio.c	/^static const struct udevice_id mvebu_gpio_ids[] = {$/;"	v	typeref:struct:udevice_id	file:
+mvebu_gpio_ops	mvebu_gpio.c	/^static const struct dm_gpio_ops mvebu_gpio_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+mvebu_gpio_priv	mvebu_gpio.c	/^struct mvebu_gpio_priv {$/;"	s	file:
+mvebu_gpio_probe	mvebu_gpio.c	/^static int mvebu_gpio_probe(struct udevice *dev)$/;"	f	file:
+mvebu_gpio_regs	mvebu_gpio.c	/^struct mvebu_gpio_regs {$/;"	s	file:
+mvebu_gpio_set_value	mvebu_gpio.c	/^static int mvebu_gpio_set_value(struct udevice *dev, unsigned gpio,$/;"	f	file:
+mxc_bank_info	mxc_gpio.c	/^struct mxc_bank_info {$/;"	s	file:
+mxc_gpio_bank_direction	mxc_gpio.c	/^static void mxc_gpio_bank_direction(struct gpio_regs *regs, int offset,$/;"	f	file:
+mxc_gpio_bank_get_value	mxc_gpio.c	/^static int mxc_gpio_bank_get_value(struct gpio_regs *regs, int offset)$/;"	f	file:
+mxc_gpio_bank_set_value	mxc_gpio.c	/^static void mxc_gpio_bank_set_value(struct gpio_regs *regs, int offset,$/;"	f	file:
+mxc_gpio_bind	mxc_gpio.c	/^static int mxc_gpio_bind(struct udevice *dev)$/;"	f	file:
+mxc_gpio_direction	mxc_gpio.c	/^enum mxc_gpio_direction {$/;"	g	file:
+mxc_gpio_direction	mxc_gpio.c	/^static int mxc_gpio_direction(unsigned int gpio,$/;"	f	file:
+mxc_gpio_direction_input	mxc_gpio.c	/^static int mxc_gpio_direction_input(struct udevice *dev, unsigned offset)$/;"	f	file:
+mxc_gpio_direction_output	mxc_gpio.c	/^static int mxc_gpio_direction_output(struct udevice *dev, unsigned offset,$/;"	f	file:
+mxc_gpio_get_function	mxc_gpio.c	/^static int mxc_gpio_get_function(struct udevice *dev, unsigned offset)$/;"	f	file:
+mxc_gpio_get_value	mxc_gpio.c	/^static int mxc_gpio_get_value(struct udevice *dev, unsigned offset)$/;"	f	file:
+mxc_gpio_ids	mxc_gpio.c	/^static const struct udevice_id mxc_gpio_ids[] = {$/;"	v	typeref:struct:udevice_id	file:
+mxc_gpio_is_output	mxc_gpio.c	/^static int mxc_gpio_is_output(struct gpio_regs *regs, int offset)$/;"	f	file:
+mxc_gpio_plat	mxc_gpio.c	/^struct mxc_gpio_plat {$/;"	s	file:
+mxc_gpio_probe	mxc_gpio.c	/^static int mxc_gpio_probe(struct udevice *dev)$/;"	f	file:
+mxc_gpio_set_value	mxc_gpio.c	/^static int mxc_gpio_set_value(struct udevice *dev, unsigned offset,$/;"	f	file:
+mxc_gpios	mxc_gpio.c	/^U_BOOT_DEVICES(mxc_gpios) = {$/;"	v
+mxc_plat	mxc_gpio.c	/^static const struct mxc_gpio_plat mxc_plat[] = {$/;"	v	typeref:struct:mxc_gpio_plat	file:
+mxs_gpio_init	mxs_gpio.c	/^void mxs_gpio_init(void)$/;"	f
+name	adi_gpio2.c	/^	char name[RESOURCE_LABEL_SIZE];$/;"	m	struct:str_ident	file:
+name	da8xx_gpio.c	/^	char name[GPIO_NAME_SIZE];$/;"	m	struct:gpio_registry	file:
+name	dwapb_gpio.c	/^	const char	*name;$/;"	m	struct:gpio_dwapb_platdata	file:
+name	mvebu_gpio.c	/^	char name[2];$/;"	m	struct:mvebu_gpio_priv	file:
+name	pic32_gpio.c	/^	char name[2];$/;"	m	struct:pic32_gpio_priv	file:
+name	rk_gpio.c	/^	char name[2];$/;"	m	struct:rockchip_gpio_priv	file:
+name	tegra186_gpio.c	/^	const char *name;$/;"	m	struct:tegra186_gpio_platdata	file:
+name	tegra186_gpio.c	/^	const char *name;$/;"	m	struct:tegra186_gpio_port_data	file:
+name	xilinx_gpio.c	/^	char name[GPIO_NAME_SIZE];$/;"	m	struct:gpio_names	file:
+name	xilinx_gpio.c	/^	char name[GPIO_NAME_SIZE];$/;"	m	struct:xilinx_gpio_priv	file:
+name_to_gpio	mxs_gpio.c	/^int name_to_gpio(const char *name)$/;"	f
+nbanks	atmel_pio4.c	/^	u32 nbanks;$/;"	m	struct:atmel_pioctrl_data	file:
+ngpio	pca953x.c	/^	uint8_t ngpio;$/;"	m	struct:pca953x_chip_ngpio	file:
+ngpio	zynq_gpio.c	/^	u16 ngpio;$/;"	m	struct:zynq_platform_data	file:
+no_banks	sunxi_gpio.c	/^	int no_banks;$/;"	m	struct:sunxi_gpio_soc_data	file:
+nregs	74x164_gpio.c	/^	u32 nregs;$/;"	m	struct:gen_74x164_priv	file:
+oe	74x164_gpio.c	/^	struct gpio_desc oe;$/;"	m	struct:gen_74x164_priv	typeref:struct:gen_74x164_priv::gpio_desc	file:
+offset	intel_broadwell_gpio.c	/^	int offset;$/;"	m	struct:broadwell_bank_priv	file:
+offset	tegra186_gpio.c	/^	uint32_t offset;$/;"	m	struct:tegra186_gpio_port_data	file:
+omap_gpio_bind	omap_gpio.c	/^static int omap_gpio_bind(struct udevice *dev)$/;"	f	file:
+omap_gpio_direction_input	omap_gpio.c	/^static int omap_gpio_direction_input(struct udevice *dev, unsigned offset)$/;"	f	file:
+omap_gpio_direction_output	omap_gpio.c	/^static int omap_gpio_direction_output(struct udevice *dev, unsigned offset,$/;"	f	file:
+omap_gpio_get_function	omap_gpio.c	/^static int omap_gpio_get_function(struct udevice *dev, unsigned offset)$/;"	f	file:
+omap_gpio_get_value	omap_gpio.c	/^static int omap_gpio_get_value(struct udevice *dev, unsigned offset)$/;"	f	file:
+omap_gpio_ids	omap_gpio.c	/^static const struct udevice_id omap_gpio_ids[] = {$/;"	v	typeref:struct:udevice_id	file:
+omap_gpio_probe	omap_gpio.c	/^static int omap_gpio_probe(struct udevice *dev)$/;"	f	file:
+omap_gpio_set_value	omap_gpio.c	/^static int omap_gpio_set_value(struct udevice *dev, unsigned offset,$/;"	f	file:
+open_drain	pic32_gpio.c	/^	struct pic32_reg_atomic open_drain;$/;"	m	struct:pic32_reg_port	typeref:struct:pic32_reg_port::pic32_reg_atomic	file:
+out	pcf8575_gpio.c	/^	unsigned int out;	\/* software latch *\/$/;"	m	struct:pcf8575_chip	file:
+p_data	zynq_gpio.c	/^	const struct zynq_platform_data *p_data;$/;"	m	struct:zynq_gpio_privdata	typeref:struct:zynq_gpio_privdata::zynq_platform_data	file:
+pad0	mvgpio.h	/^	u32 pad0[2];$/;"	m	struct:gpio_reg
+pad1	mvgpio.h	/^	u32 pad1[2];$/;"	m	struct:gpio_reg
+pad10	mvgpio.h	/^	u32 pad10[2];$/;"	m	struct:gpio_reg
+pad11	mvgpio.h	/^	u32 pad11[2];$/;"	m	struct:gpio_reg
+pad12	mvgpio.h	/^	u32 pad12[2];$/;"	m	struct:gpio_reg
+pad2	mvgpio.h	/^	u32 pad2[2];$/;"	m	struct:gpio_reg
+pad3	mvgpio.h	/^	u32 pad3[2];$/;"	m	struct:gpio_reg
+pad4	mvgpio.h	/^	u32 pad4[2];$/;"	m	struct:gpio_reg
+pad5	mvgpio.h	/^	u32 pad5[2];$/;"	m	struct:gpio_reg
+pad6	mvgpio.h	/^	u32 pad6[2];$/;"	m	struct:gpio_reg
+pad7	mvgpio.h	/^	u32 pad7[2];$/;"	m	struct:gpio_reg
+pad8	mvgpio.h	/^	u32 pad8[2];$/;"	m	struct:gpio_reg
+pad9	mvgpio.h	/^	u32 pad9[2];$/;"	m	struct:gpio_reg
+pca953x	pca953x_gpio.c	/^U_BOOT_DRIVER(pca953x) = {$/;"	v
+pca953x_chip_ngpio	pca953x.c	/^struct pca953x_chip_ngpio {$/;"	s	file:
+pca953x_chip_ngpios	pca953x.c	/^static struct pca953x_chip_ngpio pca953x_chip_ngpios[] =$/;"	v	typeref:struct:pca953x_chip_ngpio	file:
+pca953x_direction_input	pca953x_gpio.c	/^static int pca953x_direction_input(struct udevice *dev, uint offset)$/;"	f	file:
+pca953x_direction_output	pca953x_gpio.c	/^static int pca953x_direction_output(struct udevice *dev, uint offset, int value)$/;"	f	file:
+pca953x_get_function	pca953x_gpio.c	/^static int pca953x_get_function(struct udevice *dev, uint offset)$/;"	f	file:
+pca953x_get_val	pca953x.c	/^int pca953x_get_val(uint8_t chip)$/;"	f
+pca953x_get_value	pca953x_gpio.c	/^static int pca953x_get_value(struct udevice *dev, uint offset)$/;"	f	file:
+pca953x_ids	pca953x_gpio.c	/^static const struct udevice_id pca953x_ids[] = {$/;"	v	typeref:struct:udevice_id	file:
+pca953x_info	pca953x.c	/^static int pca953x_info(uint8_t chip)$/;"	f	file:
+pca953x_info	pca953x_gpio.c	/^struct pca953x_info {$/;"	s	file:
+pca953x_is_output	pca953x_gpio.c	/^static int pca953x_is_output(struct udevice *dev, int offset)$/;"	f	file:
+pca953x_ngpio	pca953x.c	/^static int pca953x_ngpio(uint8_t chip)$/;"	f	file:
+pca953x_ops	pca953x_gpio.c	/^static const struct dm_gpio_ops pca953x_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+pca953x_probe	pca953x_gpio.c	/^static int pca953x_probe(struct udevice *dev)$/;"	f	file:
+pca953x_read_regs	pca953x_gpio.c	/^static int pca953x_read_regs(struct udevice *dev, int reg, u8 *val)$/;"	f	file:
+pca953x_read_single	pca953x_gpio.c	/^static int pca953x_read_single(struct udevice *dev, int reg, u8 *val,$/;"	f	file:
+pca953x_reg_read	pca953x.c	/^static int pca953x_reg_read(uint8_t chip, uint addr, uint *data)$/;"	f	file:
+pca953x_reg_write	pca953x.c	/^static int pca953x_reg_write(uint8_t chip, uint addr, uint mask, uint data)$/;"	f	file:
+pca953x_set_dir	pca953x.c	/^int pca953x_set_dir(uint8_t chip, uint mask, uint data)$/;"	f
+pca953x_set_direction	pca953x_gpio.c	/^static int pca953x_set_direction(struct udevice *dev, uint offset, int dir)$/;"	f	file:
+pca953x_set_pol	pca953x.c	/^int pca953x_set_pol(uint8_t chip, uint mask, uint data)$/;"	f
+pca953x_set_val	pca953x.c	/^int pca953x_set_val(uint8_t chip, uint mask, uint data)$/;"	f
+pca953x_set_value	pca953x_gpio.c	/^static int pca953x_set_value(struct udevice *dev, uint offset, int value)$/;"	f	file:
+pca953x_write_single	pca953x_gpio.c	/^static int pca953x_write_single(struct udevice *dev, int reg, u8 val,$/;"	f	file:
+pca953x_xlate	pca953x_gpio.c	/^static int pca953x_xlate(struct udevice *dev, struct gpio_desc *desc,$/;"	f	file:
+pca9698_direction_input	pca9698.c	/^int pca9698_direction_input(u8 addr, unsigned gpio)$/;"	f
+pca9698_direction_output	pca9698.c	/^int pca9698_direction_output(u8 addr, unsigned gpio, int value)$/;"	f
+pca9698_free	pca9698.c	/^void pca9698_free(unsigned gpio)$/;"	f
+pca9698_get_value	pca9698.c	/^int pca9698_get_value(u8 addr, unsigned gpio)$/;"	f
+pca9698_read40	pca9698.c	/^static int pca9698_read40(u8 addr, u8 offset, u8 *buffer)$/;"	f	file:
+pca9698_request	pca9698.c	/^int pca9698_request(unsigned gpio, const char *label)$/;"	f
+pca9698_set_bit	pca9698.c	/^static void pca9698_set_bit(unsigned gpio, u8 *buffer, unsigned value)$/;"	f	file:
+pca9698_set_value	pca9698.c	/^int pca9698_set_value(u8 addr, unsigned gpio, int value)$/;"	f
+pca9698_write40	pca9698.c	/^static int pca9698_write40(u8 addr, u8 offset, u8 *buffer)$/;"	f	file:
+pcf8575_chip	pcf8575_gpio.c	/^struct pcf8575_chip {$/;"	s	file:
+pcf8575_direction_input	pcf8575_gpio.c	/^static int pcf8575_direction_input(struct udevice *dev, unsigned offset)$/;"	f	file:
+pcf8575_direction_output	pcf8575_gpio.c	/^static int pcf8575_direction_output(struct udevice *dev,$/;"	f	file:
+pcf8575_get_value	pcf8575_gpio.c	/^static int pcf8575_get_value(struct udevice *dev, unsigned int offset)$/;"	f	file:
+pcf8575_gpio_ids	pcf8575_gpio.c	/^static const struct udevice_id pcf8575_gpio_ids[] = {$/;"	v	typeref:struct:udevice_id	file:
+pcf8575_gpio_ops	pcf8575_gpio.c	/^static const struct dm_gpio_ops pcf8575_gpio_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+pcf8575_gpio_probe	pcf8575_gpio.c	/^static int pcf8575_gpio_probe(struct udevice  *dev)$/;"	f	file:
+pcf8575_i2c_read_le16	pcf8575_gpio.c	/^static int pcf8575_i2c_read_le16(struct udevice *dev)$/;"	f	file:
+pcf8575_i2c_write_le16	pcf8575_gpio.c	/^static int pcf8575_i2c_write_le16(struct udevice *dev, unsigned int word)$/;"	f	file:
+pcf8575_ofdata_platdata	pcf8575_gpio.c	/^static int pcf8575_ofdata_platdata(struct udevice *dev)$/;"	f	file:
+pcf8575_set_value	pcf8575_gpio.c	/^static int pcf8575_set_value(struct udevice *dev, unsigned int offset,$/;"	f	file:
+peripheral_free	adi_gpio2.c	/^void peripheral_free(unsigned short per)$/;"	f
+peripheral_free_list	adi_gpio2.c	/^void peripheral_free_list(const unsigned short per[])$/;"	f
+peripheral_request	adi_gpio2.c	/^int peripheral_request(unsigned short per, const char *label)$/;"	f
+peripheral_request_list	adi_gpio2.c	/^int peripheral_request_list(const unsigned short per[], const char *label)$/;"	f
+pfc_offset	gpio-rcar.c	/^	int			pfc_offset;$/;"	m	struct:rcar_gpio_priv	file:
+pfc_phys_to_virt	sh_pfc.c	19;"	d	file:
+pic32_gpio_direction	pic32_gpio.c	/^static int pic32_gpio_direction(struct udevice *dev, unsigned offset)$/;"	f	file:
+pic32_gpio_direction_input	pic32_gpio.c	/^static int pic32_gpio_direction_input(struct udevice *dev, unsigned offset)$/;"	f	file:
+pic32_gpio_direction_output	pic32_gpio.c	/^static int pic32_gpio_direction_output(struct udevice *dev,$/;"	f	file:
+pic32_gpio_get_function	pic32_gpio.c	/^static int pic32_gpio_get_function(struct udevice *dev, unsigned offset)$/;"	f	file:
+pic32_gpio_get_value	pic32_gpio.c	/^static int pic32_gpio_get_value(struct udevice *dev, unsigned offset)$/;"	f	file:
+pic32_gpio_ids	pic32_gpio.c	/^static const struct udevice_id pic32_gpio_ids[] = {$/;"	v	typeref:struct:udevice_id	file:
+pic32_gpio_priv	pic32_gpio.c	/^struct pic32_gpio_priv {$/;"	s	file:
+pic32_gpio_probe	pic32_gpio.c	/^static int pic32_gpio_probe(struct udevice *dev)$/;"	f	file:
+pic32_gpio_set_value	pic32_gpio.c	/^static int pic32_gpio_set_value(struct udevice *dev, unsigned offset,$/;"	f	file:
+pic32_reg_port	pic32_gpio.c	/^struct pic32_reg_port {$/;"	s	file:
+pid	pm8916_gpio.c	/^	uint32_t pid; \/* Peripheral ID on SPMI bus *\/$/;"	m	struct:pm8916_gpio_bank	file:
+pinctrl	bcm2835_gpio.c	/^	struct udevice *pinctrl;$/;"	m	struct:bcm2835_gpios	typeref:struct:bcm2835_gpios::udevice	file:
+pinctrl	rk_gpio.c	/^	struct udevice *pinctrl;$/;"	m	struct:rockchip_gpio_priv	typeref:struct:rockchip_gpio_priv::udevice	file:
+pinmux	da8xx_gpio.c	24;"	d	file:
+pinmux_config_gpio	sh_pfc.c	/^static int pinmux_config_gpio(struct pinmux_info *gpioc, unsigned gpio,$/;"	f	file:
+pinmux_direction	sh_pfc.c	/^static int pinmux_direction(struct pinmux_info *gpioc,$/;"	f	file:
+pins	dwapb_gpio.c	/^	int		pins;$/;"	m	struct:gpio_dwapb_platdata	file:
+pm8916_gpio_bank	pm8916_gpio.c	/^struct pm8916_gpio_bank {$/;"	s	file:
+pm8916_gpio_direction_input	pm8916_gpio.c	/^static int pm8916_gpio_direction_input(struct udevice *dev, unsigned offset)$/;"	f	file:
+pm8916_gpio_direction_output	pm8916_gpio.c	/^static int pm8916_gpio_direction_output(struct udevice *dev, unsigned offset,$/;"	f	file:
+pm8916_gpio_get_function	pm8916_gpio.c	/^static int pm8916_gpio_get_function(struct udevice *dev, unsigned offset)$/;"	f	file:
+pm8916_gpio_get_value	pm8916_gpio.c	/^static int pm8916_gpio_get_value(struct udevice *dev, unsigned offset)$/;"	f	file:
+pm8916_gpio_ids	pm8916_gpio.c	/^static const struct udevice_id pm8916_gpio_ids[] = {$/;"	v	typeref:struct:udevice_id	file:
+pm8916_gpio_ofdata_to_platdata	pm8916_gpio.c	/^static int pm8916_gpio_ofdata_to_platdata(struct udevice *dev)$/;"	f	file:
+pm8916_gpio_ops	pm8916_gpio.c	/^static const struct dm_gpio_ops pm8916_gpio_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+pm8916_gpio_probe	pm8916_gpio.c	/^static int pm8916_gpio_probe(struct udevice *dev)$/;"	f	file:
+pm8916_gpio_set_direction	pm8916_gpio.c	/^static int pm8916_gpio_set_direction(struct udevice *dev, unsigned offset,$/;"	f	file:
+pm8916_gpio_set_value	pm8916_gpio.c	/^static int pm8916_gpio_set_value(struct udevice *dev, unsigned offset,$/;"	f	file:
+pm8941_pwrkey_get_function	pm8916_gpio.c	/^static int pm8941_pwrkey_get_function(struct udevice *dev, unsigned offset)$/;"	f	file:
+pm8941_pwrkey_get_value	pm8916_gpio.c	/^static int pm8941_pwrkey_get_value(struct udevice *dev, unsigned offset)$/;"	f	file:
+pm8941_pwrkey_ids	pm8916_gpio.c	/^static const struct udevice_id pm8941_pwrkey_ids[] = {$/;"	v	typeref:struct:udevice_id	file:
+pm8941_pwrkey_ofdata_to_platdata	pm8916_gpio.c	/^static int pm8941_pwrkey_ofdata_to_platdata(struct udevice *dev)$/;"	f	file:
+pm8941_pwrkey_ops	pm8916_gpio.c	/^static const struct dm_gpio_ops pm8941_pwrkey_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+pm8941_pwrkey_probe	pm8916_gpio.c	/^static int pm8941_pwrkey_probe(struct udevice *dev)$/;"	f	file:
+port	pic32_gpio.c	/^	struct pic32_reg_atomic port;$/;"	m	struct:pic32_reg_port	typeref:struct:pic32_reg_port::pic32_reg_atomic	file:
+port_count	tegra186_gpio.c	/^	uint32_t port_count;$/;"	m	struct:tegra186_gpio_ctlr_data	file:
+port_name	tegra_gpio.c	/^	const char *port_name;	\/* Name of port, e.g. "B" *\/$/;"	m	struct:tegra_gpio_platdata	file:
+port_setup	adi_gpio2.c	/^static void port_setup(unsigned gpio, unsigned short usage)$/;"	f	file:
+portmux_setup	adi_gpio2.c	/^inline void portmux_setup(unsigned short per)$/;"	f
+ports	tegra186_gpio.c	/^	const struct tegra186_gpio_port_data *ports;$/;"	m	struct:tegra186_gpio_ctlr_data	typeref:struct:tegra186_gpio_ctlr_data::tegra186_gpio_port_data	file:
+pwrkey_pm8941	pm8916_gpio.c	/^U_BOOT_DRIVER(pwrkey_pm8941) = {$/;"	v
+rcar_gpio	gpio-rcar.c	/^U_BOOT_DRIVER(rcar_gpio) = {$/;"	v
+rcar_gpio_direction_input	gpio-rcar.c	/^static int rcar_gpio_direction_input(struct udevice *dev, unsigned offset)$/;"	f	file:
+rcar_gpio_direction_output	gpio-rcar.c	/^static int rcar_gpio_direction_output(struct udevice *dev, unsigned offset,$/;"	f	file:
+rcar_gpio_get_function	gpio-rcar.c	/^static int rcar_gpio_get_function(struct udevice *dev, unsigned offset)$/;"	f	file:
+rcar_gpio_get_value	gpio-rcar.c	/^static int rcar_gpio_get_value(struct udevice *dev, unsigned offset)$/;"	f	file:
+rcar_gpio_ids	gpio-rcar.c	/^static const struct udevice_id rcar_gpio_ids[] = {$/;"	v	typeref:struct:udevice_id	file:
+rcar_gpio_ops	gpio-rcar.c	/^static const struct dm_gpio_ops rcar_gpio_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+rcar_gpio_priv	gpio-rcar.c	/^struct rcar_gpio_priv {$/;"	s	file:
+rcar_gpio_probe	gpio-rcar.c	/^static int rcar_gpio_probe(struct udevice *dev)$/;"	f	file:
+rcar_gpio_request	gpio-rcar.c	/^static int rcar_gpio_request(struct udevice *dev, unsigned offset,$/;"	f	file:
+rcar_gpio_set_direction	gpio-rcar.c	/^static void rcar_gpio_set_direction(void __iomem *regs, unsigned offset,$/;"	f	file:
+rcar_gpio_set_value	gpio-rcar.c	/^static int rcar_gpio_set_value(struct udevice *dev, unsigned offset,$/;"	f	file:
+read_config_reg	sh_pfc.c	/^static int read_config_reg(struct pinmux_info *gpioc,$/;"	f	file:
+reg	bcm2835_gpio.c	/^	struct bcm2835_gpio_regs *reg;$/;"	m	struct:bcm2835_gpios	typeref:struct:bcm2835_gpios::bcm2835_gpio_regs	file:
+reg	vybrid_gpio.c	/^	struct vybrid_gpio_regs *reg;$/;"	m	struct:vybrid_gpios	typeref:struct:vybrid_gpios::vybrid_gpio_regs	file:
+reg_base	atmel_pio4.c	/^	struct atmel_pio4_port *reg_base;$/;"	m	struct:atmel_pio4_platdata	typeref:struct:atmel_pio4_platdata::atmel_pio4_port	file:
+reg_data	bcm6345_gpio.c	/^	void __iomem *reg_data;$/;"	m	struct:bcm6345_gpio_priv	file:
+reg_direction	pca953x_gpio.c	/^	u8 reg_direction[MAX_BANK];$/;"	m	struct:pca953x_info	file:
+reg_dirout	bcm6345_gpio.c	/^	void __iomem *reg_dirout;$/;"	m	struct:bcm6345_gpio_priv	file:
+reg_output	pca953x_gpio.c	/^	u8 reg_output[MAX_BANK];$/;"	m	struct:pca953x_info	file:
+register_pinmux	sh_pfc.c	/^int register_pinmux(struct pinmux_info *pip)$/;"	f
+regs	altera_pio.c	/^	struct altera_pio_regs *regs;$/;"	m	struct:altera_pio_platdata	typeref:struct:altera_pio_platdata::altera_pio_regs	file:
+regs	at91_gpio.c	/^	struct at91_port *regs;$/;"	m	struct:at91_port_priv	typeref:struct:at91_port_priv::at91_port	file:
+regs	gpio-rcar.c	/^	void __iomem		*regs;$/;"	m	struct:rcar_gpio_priv	file:
+regs	gpio-uniphier.c	/^	void __iomem *regs;$/;"	m	struct:uniphier_gpio_priv	file:
+regs	hsdk-creg-gpio.c	/^	uint32_t *regs;$/;"	m	struct:hsdk_creg_gpio	file:
+regs	imx_rgpio2p.c	/^	struct gpio_regs *regs;$/;"	m	struct:imx_rgpio2p_data	typeref:struct:imx_rgpio2p_data::gpio_regs	file:
+regs	imx_rgpio2p.c	/^	struct gpio_regs *regs;$/;"	m	struct:imx_rgpio2p_plat	typeref:struct:imx_rgpio2p_plat::gpio_regs	file:
+regs	intel_broadwell_gpio.c	/^	struct pch_lp_gpio_regs *regs;$/;"	m	struct:broadwell_bank_priv	typeref:struct:broadwell_bank_priv::pch_lp_gpio_regs	file:
+regs	lpc32xx_gpio.c	/^	struct gpio_regs *regs;$/;"	m	struct:lpc32xx_gpio_priv	typeref:struct:lpc32xx_gpio_priv::gpio_regs	file:
+regs	mvebu_gpio.c	/^	struct mvebu_gpio_regs *regs;$/;"	m	struct:mvebu_gpio_priv	typeref:struct:mvebu_gpio_priv::mvebu_gpio_regs	file:
+regs	mxc_gpio.c	/^	struct gpio_regs *regs;$/;"	m	struct:mxc_bank_info	typeref:struct:mxc_bank_info::gpio_regs	file:
+regs	mxc_gpio.c	/^	struct gpio_regs *regs;$/;"	m	struct:mxc_gpio_plat	typeref:struct:mxc_gpio_plat::gpio_regs	file:
+regs	pic32_gpio.c	/^	struct pic32_reg_port *regs;$/;"	m	struct:pic32_gpio_priv	typeref:struct:pic32_gpio_priv::pic32_reg_port	file:
+regs	rk_gpio.c	/^	struct rockchip_gpio_regs *regs;$/;"	m	struct:rockchip_gpio_priv	typeref:struct:rockchip_gpio_priv::rockchip_gpio_regs	file:
+regs	sunxi_gpio.c	/^	struct sunxi_gpio *regs;$/;"	m	struct:sunxi_gpio_platdata	typeref:struct:sunxi_gpio_platdata::sunxi_gpio	file:
+regs	tegra186_gpio.c	/^	uint32_t *regs;$/;"	m	struct:tegra186_gpio_platdata	file:
+regs	xilinx_gpio.c	/^	struct gpio_regs *regs;$/;"	m	struct:xilinx_gpio_priv	typeref:struct:xilinx_gpio_priv::gpio_regs	file:
+reserve	adi_gpio2.c	52;"	d	file:
+rockchip_gpio_direction_input	rk_gpio.c	/^static int rockchip_gpio_direction_input(struct udevice *dev, unsigned offset)$/;"	f	file:
+rockchip_gpio_direction_output	rk_gpio.c	/^static int rockchip_gpio_direction_output(struct udevice *dev, unsigned offset,$/;"	f	file:
+rockchip_gpio_get_function	rk_gpio.c	/^static int rockchip_gpio_get_function(struct udevice *dev, unsigned offset)$/;"	f	file:
+rockchip_gpio_get_value	rk_gpio.c	/^static int rockchip_gpio_get_value(struct udevice *dev, unsigned offset)$/;"	f	file:
+rockchip_gpio_ids	rk_gpio.c	/^static const struct udevice_id rockchip_gpio_ids[] = {$/;"	v	typeref:struct:udevice_id	file:
+rockchip_gpio_priv	rk_gpio.c	/^struct rockchip_gpio_priv {$/;"	s	file:
+rockchip_gpio_probe	rk_gpio.c	/^static int rockchip_gpio_probe(struct udevice *dev)$/;"	f	file:
+rockchip_gpio_set_value	rk_gpio.c	/^static int rockchip_gpio_set_value(struct udevice *dev, unsigned offset,$/;"	f	file:
+s5p_gpio_cfg_pin	s5p_gpio.c	/^static void s5p_gpio_cfg_pin(struct s5p_gpio_bank *bank, int gpio, int cfg)$/;"	f	file:
+s5p_gpio_get_bank	s5p_gpio.c	/^static struct s5p_gpio_bank *s5p_gpio_get_bank(unsigned int gpio)$/;"	f	file:
+s5p_gpio_get_cfg_pin	s5p_gpio.c	/^static int s5p_gpio_get_cfg_pin(struct s5p_gpio_bank *bank, int gpio)$/;"	f	file:
+s5p_gpio_get_pin	s5p_gpio.c	/^int s5p_gpio_get_pin(unsigned gpio)$/;"	f
+s5p_gpio_get_value	s5p_gpio.c	/^static unsigned int s5p_gpio_get_value(struct s5p_gpio_bank *bank, int gpio)$/;"	f	file:
+s5p_gpio_set_drv	s5p_gpio.c	/^static void s5p_gpio_set_drv(struct s5p_gpio_bank *bank, int gpio, int mode)$/;"	f	file:
+s5p_gpio_set_pull	s5p_gpio.c	/^static void s5p_gpio_set_pull(struct s5p_gpio_bank *bank, int gpio, int mode)$/;"	f	file:
+s5p_gpio_set_rate	s5p_gpio.c	/^static void s5p_gpio_set_rate(struct s5p_gpio_bank *bank, int gpio, int mode)$/;"	f	file:
+s5p_gpio_set_value	s5p_gpio.c	/^static void s5p_gpio_set_value(struct s5p_gpio_bank *bank, int gpio, int en)$/;"	f	file:
+sandbox_gpio_get_direction	sandbox.c	/^int sandbox_gpio_get_direction(struct udevice *dev, unsigned offset)$/;"	f
+sandbox_gpio_get_open_drain	sandbox.c	/^int sandbox_gpio_get_open_drain(struct udevice *dev, unsigned offset)$/;"	f
+sandbox_gpio_get_value	sandbox.c	/^int sandbox_gpio_get_value(struct udevice *dev, unsigned offset)$/;"	f
+sandbox_gpio_ids	sandbox.c	/^static const struct udevice_id sandbox_gpio_ids[] = {$/;"	v	typeref:struct:udevice_id	file:
+sandbox_gpio_ofdata_to_platdata	sandbox.c	/^static int sandbox_gpio_ofdata_to_platdata(struct udevice *dev)$/;"	f	file:
+sandbox_gpio_set_direction	sandbox.c	/^int sandbox_gpio_set_direction(struct udevice *dev, unsigned offset, int output)$/;"	f
+sandbox_gpio_set_open_drain	sandbox.c	/^int sandbox_gpio_set_open_drain(struct udevice *dev, unsigned offset, int value)$/;"	f
+sandbox_gpio_set_value	sandbox.c	/^int sandbox_gpio_set_value(struct udevice *dev, unsigned offset, int value)$/;"	f
+sb_gpio_direction_input	sandbox.c	/^static int sb_gpio_direction_input(struct udevice *dev, unsigned offset)$/;"	f	file:
+sb_gpio_direction_output	sandbox.c	/^static int sb_gpio_direction_output(struct udevice *dev, unsigned offset,$/;"	f	file:
+sb_gpio_get_function	sandbox.c	/^static int sb_gpio_get_function(struct udevice *dev, unsigned offset)$/;"	f	file:
+sb_gpio_get_open_drain	sandbox.c	/^static int sb_gpio_get_open_drain(struct udevice *dev, unsigned offset)$/;"	f	file:
+sb_gpio_get_value	sandbox.c	/^static int sb_gpio_get_value(struct udevice *dev, unsigned offset)$/;"	f	file:
+sb_gpio_set_open_drain	sandbox.c	/^static int sb_gpio_set_open_drain(struct udevice *dev, unsigned offset, int value)$/;"	f	file:
+sb_gpio_set_value	sandbox.c	/^static int sb_gpio_set_value(struct udevice *dev, unsigned offset, int value)$/;"	f	file:
+sb_gpio_xlate	sandbox.c	/^static int sb_gpio_xlate(struct udevice *dev, struct gpio_desc *desc,$/;"	f	file:
+set_config	tegra_gpio.c	/^static void set_config(unsigned gpio, int type)$/;"	f	file:
+set_direction	tegra_gpio.c	/^static void set_direction(unsigned gpio, int output)$/;"	f	file:
+set_gpio_flag	sandbox.c	/^static int set_gpio_flag(struct udevice *dev, unsigned offset, int flag,$/;"	f	file:
+set_label	adi_gpio2.c	/^static void set_label(unsigned short ident, const char *label)$/;"	f	file:
+set_level	tegra_gpio.c	/^static void set_level(unsigned gpio, int high)$/;"	f	file:
+setup_data_reg	sh_pfc.c	/^static int setup_data_reg(struct pinmux_info *gpioc, unsigned gpio)$/;"	f	file:
+setup_data_regs	sh_pfc.c	/^static void setup_data_regs(struct pinmux_info *gpioc)$/;"	f	file:
+sh_gpio_direction_input	sh_pfc.c	/^static int sh_gpio_direction_input(unsigned offset)$/;"	f	file:
+sh_gpio_direction_output	sh_pfc.c	/^static int sh_gpio_direction_output(unsigned offset, int value)$/;"	f	file:
+sh_gpio_free	sh_pfc.c	/^static void sh_gpio_free(unsigned offset)$/;"	f	file:
+sh_gpio_get	sh_pfc.c	/^static int sh_gpio_get(unsigned offset)$/;"	f	file:
+sh_gpio_get_value	sh_pfc.c	/^static int sh_gpio_get_value(struct pinmux_info *gpioc, unsigned gpio)$/;"	f	file:
+sh_gpio_request	sh_pfc.c	/^static int sh_gpio_request(unsigned offset)$/;"	f	file:
+sh_gpio_set	sh_pfc.c	/^static void sh_gpio_set(unsigned offset, int value)$/;"	f	file:
+sh_gpio_set_value	sh_pfc.c	/^static void sh_gpio_set_value(struct pinmux_info *gpioc,$/;"	f	file:
+soc_data_a_all	sunxi_gpio.c	/^static const struct sunxi_gpio_soc_data soc_data_a_all = {$/;"	v	typeref:struct:sunxi_gpio_soc_data	file:
+soc_data_l_1	sunxi_gpio.c	/^static const struct sunxi_gpio_soc_data soc_data_l_1 = {$/;"	v	typeref:struct:sunxi_gpio_soc_data	file:
+soc_data_l_2	sunxi_gpio.c	/^static const struct sunxi_gpio_soc_data soc_data_l_2 = {$/;"	v	typeref:struct:sunxi_gpio_soc_data	file:
+soc_data_l_3	sunxi_gpio.c	/^static const struct sunxi_gpio_soc_data soc_data_l_3 = {$/;"	v	typeref:struct:sunxi_gpio_soc_data	file:
+special_gpio_free	adi_gpio2.c	/^void special_gpio_free(unsigned gpio)$/;"	f
+special_gpio_request	adi_gpio2.c	/^int special_gpio_request(unsigned gpio, const char *label)$/;"	f
+start	sunxi_gpio.c	/^	int start;$/;"	m	struct:sunxi_gpio_soc_data	file:
+stm32_gpio_direction_input	stm32f7_gpio.c	/^static int stm32_gpio_direction_input(struct udevice *dev, unsigned offset)$/;"	f	file:
+stm32_gpio_direction_output	stm32f7_gpio.c	/^static int stm32_gpio_direction_output(struct udevice *dev, unsigned offset,$/;"	f	file:
+stm32_gpio_get_value	stm32f7_gpio.c	/^static int stm32_gpio_get_value(struct udevice *dev, unsigned offset)$/;"	f	file:
+stm32_gpio_ids	stm32f7_gpio.c	/^static const struct udevice_id stm32_gpio_ids[] = {$/;"	v	typeref:struct:udevice_id	file:
+stm32_gpio_set_value	stm32f7_gpio.c	/^static int stm32_gpio_set_value(struct udevice *dev, unsigned offset, int value)$/;"	f	file:
+str_ident	adi_gpio2.c	/^static struct str_ident {$/;"	s	file:
+str_ident	adi_gpio2.c	/^} str_ident[MAX_RESOURCES];$/;"	v	typeref:struct:str_ident	file:
+sunxi_gpio_direction_input	sunxi_gpio.c	/^static int sunxi_gpio_direction_input(struct udevice *dev, unsigned offset)$/;"	f	file:
+sunxi_gpio_direction_output	sunxi_gpio.c	/^static int sunxi_gpio_direction_output(struct udevice *dev, unsigned offset,$/;"	f	file:
+sunxi_gpio_get_function	sunxi_gpio.c	/^static int sunxi_gpio_get_function(struct udevice *dev, unsigned offset)$/;"	f	file:
+sunxi_gpio_get_value	sunxi_gpio.c	/^static int sunxi_gpio_get_value(struct udevice *dev, unsigned offset)$/;"	f	file:
+sunxi_gpio_ids	sunxi_gpio.c	/^static const struct udevice_id sunxi_gpio_ids[] = {$/;"	v	typeref:struct:udevice_id	file:
+sunxi_gpio_input	sunxi_gpio.c	/^static int sunxi_gpio_input(u32 pin)$/;"	f	file:
+sunxi_gpio_output	sunxi_gpio.c	/^static int sunxi_gpio_output(u32 pin, u32 val)$/;"	f	file:
+sunxi_gpio_platdata	sunxi_gpio.c	/^struct sunxi_gpio_platdata {$/;"	s	file:
+sunxi_gpio_set_value	sunxi_gpio.c	/^static int sunxi_gpio_set_value(struct udevice *dev, unsigned offset,$/;"	f	file:
+sunxi_gpio_soc_data	sunxi_gpio.c	/^struct sunxi_gpio_soc_data {$/;"	s	file:
+sunxi_gpio_xlate	sunxi_gpio.c	/^static int sunxi_gpio_xlate(struct udevice *dev, struct gpio_desc *desc,$/;"	f	file:
+sunxi_name_to_gpio	sunxi_gpio.c	/^int sunxi_name_to_gpio(const char *name)$/;"	f
+sunxi_name_to_gpio_bank	sunxi_gpio.c	/^int sunxi_name_to_gpio_bank(const char *name)$/;"	f
+tca642x_get_val	tca642x.c	/^int tca642x_get_val(uchar chip, uint8_t gpio_bank)$/;"	f
+tca642x_info	tca642x.c	/^static int tca642x_info(uchar chip)$/;"	f	file:
+tca642x_reg_read	tca642x.c	/^static int tca642x_reg_read(uchar chip, uint8_t addr, uint8_t *data)$/;"	f	file:
+tca642x_reg_write	tca642x.c	/^static int tca642x_reg_write(uchar chip, uint8_t addr,$/;"	f	file:
+tca642x_regs	tca642x.c	/^struct tca642x_bank_info tca642x_regs[] = {$/;"	v	typeref:struct:tca642x_bank_info
+tca642x_set_dir	tca642x.c	/^int tca642x_set_dir(uchar chip, uint8_t gpio_bank,$/;"	f
+tca642x_set_inital_state	tca642x.c	/^int tca642x_set_inital_state(uchar chip, struct tca642x_bank_info init_data[])$/;"	f
+tca642x_set_pol	tca642x.c	/^int tca642x_set_pol(uchar chip, uint8_t gpio_bank,$/;"	f
+tca642x_set_val	tca642x.c	/^int tca642x_set_val(uchar chip, uint8_t gpio_bank,$/;"	f
+tegra186_gpio	tegra186_gpio.c	/^U_BOOT_DRIVER(tegra186_gpio) = {$/;"	v
+tegra186_gpio_aon_data	tegra186_gpio.c	/^static const struct tegra186_gpio_ctlr_data tegra186_gpio_aon_data = {$/;"	v	typeref:struct:tegra186_gpio_ctlr_data	file:
+tegra186_gpio_aon_ports	tegra186_gpio.c	/^static const struct tegra186_gpio_port_data tegra186_gpio_aon_ports[] = {$/;"	v	typeref:struct:tegra186_gpio_port_data	file:
+tegra186_gpio_bind	tegra186_gpio.c	/^static int tegra186_gpio_bind(struct udevice *parent)$/;"	f	file:
+tegra186_gpio_ctlr_data	tegra186_gpio.c	/^struct tegra186_gpio_ctlr_data {$/;"	s	file:
+tegra186_gpio_direction_input	tegra186_gpio.c	/^static int tegra186_gpio_direction_input(struct udevice *dev, unsigned offset)$/;"	f	file:
+tegra186_gpio_direction_output	tegra186_gpio.c	/^static int tegra186_gpio_direction_output(struct udevice *dev, unsigned offset,$/;"	f	file:
+tegra186_gpio_get_function	tegra186_gpio.c	/^static int tegra186_gpio_get_function(struct udevice *dev, unsigned offset)$/;"	f	file:
+tegra186_gpio_get_value	tegra186_gpio.c	/^static int tegra186_gpio_get_value(struct udevice *dev, unsigned offset)$/;"	f	file:
+tegra186_gpio_ids	tegra186_gpio.c	/^static const struct udevice_id tegra186_gpio_ids[] = {$/;"	v	typeref:struct:udevice_id	file:
+tegra186_gpio_main_data	tegra186_gpio.c	/^static const struct tegra186_gpio_ctlr_data tegra186_gpio_main_data = {$/;"	v	typeref:struct:tegra186_gpio_ctlr_data	file:
+tegra186_gpio_main_ports	tegra186_gpio.c	/^static const struct tegra186_gpio_port_data tegra186_gpio_main_ports[] = {$/;"	v	typeref:struct:tegra186_gpio_port_data	file:
+tegra186_gpio_ops	tegra186_gpio.c	/^static const struct dm_gpio_ops tegra186_gpio_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+tegra186_gpio_platdata	tegra186_gpio.c	/^struct tegra186_gpio_platdata {$/;"	s	file:
+tegra186_gpio_port_data	tegra186_gpio.c	/^struct tegra186_gpio_port_data {$/;"	s	file:
+tegra186_gpio_probe	tegra186_gpio.c	/^static int tegra186_gpio_probe(struct udevice *dev)$/;"	f	file:
+tegra186_gpio_reg	tegra186_gpio.c	/^static uint32_t *tegra186_gpio_reg(struct udevice *dev, uint32_t reg,$/;"	f	file:
+tegra186_gpio_set_out	tegra186_gpio.c	/^static int tegra186_gpio_set_out(struct udevice *dev, unsigned offset,$/;"	f	file:
+tegra186_gpio_set_val	tegra186_gpio.c	/^static int tegra186_gpio_set_val(struct udevice *dev, unsigned offset, bool val)$/;"	f	file:
+tegra186_gpio_set_value	tegra186_gpio.c	/^static int tegra186_gpio_set_value(struct udevice *dev, unsigned offset,$/;"	f	file:
+tegra186_gpio_xlate	tegra186_gpio.c	/^static int tegra186_gpio_xlate(struct udevice *dev, struct gpio_desc *desc,$/;"	f	file:
+tegra_gpio_direction_input	tegra_gpio.c	/^static int tegra_gpio_direction_input(struct udevice *dev, unsigned offset)$/;"	f	file:
+tegra_gpio_direction_output	tegra_gpio.c	/^static int tegra_gpio_direction_output(struct udevice *dev, unsigned offset,$/;"	f	file:
+tegra_gpio_get_function	tegra_gpio.c	/^static int tegra_gpio_get_function(struct udevice *dev, unsigned offset)$/;"	f	file:
+tegra_gpio_get_value	tegra_gpio.c	/^static int tegra_gpio_get_value(struct udevice *dev, unsigned offset)$/;"	f	file:
+tegra_gpio_ids	tegra_gpio.c	/^static const struct udevice_id tegra_gpio_ids[] = {$/;"	v	typeref:struct:udevice_id	file:
+tegra_gpio_platdata	tegra_gpio.c	/^struct tegra_gpio_platdata {$/;"	s	file:
+tegra_gpio_set_value	tegra_gpio.c	/^static int tegra_gpio_set_value(struct udevice *dev, unsigned offset, int value)$/;"	f	file:
+tegra_gpio_xlate	tegra_gpio.c	/^static int tegra_gpio_xlate(struct udevice *dev, struct gpio_desc *desc,$/;"	f	file:
+tegra_port_info	tegra_gpio.c	/^struct tegra_port_info {$/;"	s	file:
+tris	pic32_gpio.c	/^	struct pic32_reg_atomic tris;$/;"	m	struct:pic32_reg_port	typeref:struct:pic32_reg_port::pic32_reg_atomic	file:
+type	mpc8xxx_gpio.c	/^	ulong type;$/;"	m	struct:mpc8xxx_gpio_data	file:
+uniphier_gpio	gpio-uniphier.c	/^U_BOOT_DRIVER(uniphier_gpio) = {$/;"	v
+uniphier_gpio_bank_to_reg	gpio-uniphier.c	/^static unsigned int uniphier_gpio_bank_to_reg(unsigned int bank)$/;"	f	file:
+uniphier_gpio_bank_write	gpio-uniphier.c	/^static void uniphier_gpio_bank_write(struct udevice *dev, unsigned int bank,$/;"	f	file:
+uniphier_gpio_direction_input	gpio-uniphier.c	/^static int uniphier_gpio_direction_input(struct udevice *dev,$/;"	f	file:
+uniphier_gpio_direction_output	gpio-uniphier.c	/^static int uniphier_gpio_direction_output(struct udevice *dev,$/;"	f	file:
+uniphier_gpio_get_bank_and_mask	gpio-uniphier.c	/^static void uniphier_gpio_get_bank_and_mask(unsigned int offset,$/;"	f	file:
+uniphier_gpio_get_function	gpio-uniphier.c	/^static int uniphier_gpio_get_function(struct udevice *dev, unsigned int offset)$/;"	f	file:
+uniphier_gpio_get_value	gpio-uniphier.c	/^static int uniphier_gpio_get_value(struct udevice *dev, unsigned int offset)$/;"	f	file:
+uniphier_gpio_match	gpio-uniphier.c	/^static const struct udevice_id uniphier_gpio_match[] = {$/;"	v	typeref:struct:udevice_id	file:
+uniphier_gpio_offset_read	gpio-uniphier.c	/^static int uniphier_gpio_offset_read(struct udevice *dev,$/;"	f	file:
+uniphier_gpio_offset_write	gpio-uniphier.c	/^static void uniphier_gpio_offset_write(struct udevice *dev, unsigned int offset,$/;"	f	file:
+uniphier_gpio_ops	gpio-uniphier.c	/^static const struct dm_gpio_ops uniphier_gpio_ops = {$/;"	v	typeref:struct:dm_gpio_ops	file:
+uniphier_gpio_priv	gpio-uniphier.c	/^struct uniphier_gpio_priv {$/;"	s	file:
+uniphier_gpio_probe	gpio-uniphier.c	/^static int uniphier_gpio_probe(struct udevice *dev)$/;"	f	file:
+uniphier_gpio_reg_update	gpio-uniphier.c	/^static void uniphier_gpio_reg_update(struct uniphier_gpio_priv *priv,$/;"	f	file:
+uniphier_gpio_set_value	gpio-uniphier.c	/^static int uniphier_gpio_set_value(struct udevice *dev,$/;"	f	file:
+unregister_pinmux	sh_pfc.c	/^int unregister_pinmux(struct pinmux_info *pip)$/;"	f
+unreserve	adi_gpio2.c	53;"	d	file:
+use_lvl_write_cache	intel_ich6_gpio.c	/^	bool use_lvl_write_cache;$/;"	m	struct:ich6_bank_priv	file:
+use_sel	intel_ich6_gpio.c	/^	uint16_t use_sel;$/;"	m	struct:ich6_bank_priv	file:
+vybrid_gpio_direction_input	vybrid_gpio.c	/^static int vybrid_gpio_direction_input(struct udevice *dev, unsigned gpio)$/;"	f	file:
+vybrid_gpio_direction_output	vybrid_gpio.c	/^static int vybrid_gpio_direction_output(struct udevice *dev, unsigned gpio,$/;"	f	file:
+vybrid_gpio_get_function	vybrid_gpio.c	/^static int vybrid_gpio_get_function(struct udevice *dev, unsigned gpio)$/;"	f	file:
+vybrid_gpio_get_value	vybrid_gpio.c	/^static int vybrid_gpio_get_value(struct udevice *dev, unsigned gpio)$/;"	f	file:
+vybrid_gpio_ids	vybrid_gpio.c	/^static const struct udevice_id vybrid_gpio_ids[] = {$/;"	v	typeref:struct:udevice_id	file:
+vybrid_gpio_odata_to_platdata	vybrid_gpio.c	/^static int vybrid_gpio_odata_to_platdata(struct udevice *dev)$/;"	f	file:
+vybrid_gpio_probe	vybrid_gpio.c	/^static int vybrid_gpio_probe(struct udevice *dev)$/;"	f	file:
+vybrid_gpio_set_value	vybrid_gpio.c	/^static int vybrid_gpio_set_value(struct udevice *dev, unsigned gpio,$/;"	f	file:
+vybrid_gpios	vybrid_gpio.c	/^struct vybrid_gpios {$/;"	s	file:
+write_config_reg	sh_pfc.c	/^static void write_config_reg(struct pinmux_info *gpioc,$/;"	f	file:
+xilinx_gpio_max	xilinx_gpio.c	/^static u32 xilinx_gpio_max;$/;"	v	file:
+xilinx_gpio_priv	xilinx_gpio.c	/^struct xilinx_gpio_priv {$/;"	s	file:
+zynq_gpio_def	zynq_gpio.c	/^static const struct zynq_platform_data zynq_gpio_def = {$/;"	v	typeref:struct:zynq_platform_data	file:
+zynq_gpio_direction_input	zynq_gpio.c	/^static int zynq_gpio_direction_input(struct udevice *dev, unsigned gpio)$/;"	f	file:
+zynq_gpio_direction_output	zynq_gpio.c	/^static int zynq_gpio_direction_output(struct udevice *dev, unsigned gpio,$/;"	f	file:
+zynq_gpio_get_bank_pin	zynq_gpio.c	/^static inline void zynq_gpio_get_bank_pin(unsigned int pin_num,$/;"	f	file:
+zynq_gpio_get_function	zynq_gpio.c	/^static int zynq_gpio_get_function(struct udevice *dev, unsigned offset)$/;"	f	file:
+zynq_gpio_get_value	zynq_gpio.c	/^static int zynq_gpio_get_value(struct udevice *dev, unsigned gpio)$/;"	f	file:
+zynq_gpio_getplat_data	zynq_gpio.c	/^static void zynq_gpio_getplat_data(struct udevice *dev)$/;"	f	file:
+zynq_gpio_ids	zynq_gpio.c	/^static const struct udevice_id zynq_gpio_ids[] = {$/;"	v	typeref:struct:udevice_id	file:
+zynq_gpio_ofdata_to_platdata	zynq_gpio.c	/^static int zynq_gpio_ofdata_to_platdata(struct udevice *dev)$/;"	f	file:
+zynq_gpio_privdata	zynq_gpio.c	/^struct zynq_gpio_privdata {$/;"	s	file:
+zynq_gpio_probe	zynq_gpio.c	/^static int zynq_gpio_probe(struct udevice *dev)$/;"	f	file:
+zynq_gpio_set_value	zynq_gpio.c	/^static int zynq_gpio_set_value(struct udevice *dev, unsigned gpio, int value)$/;"	f	file:
+zynq_platform_data	zynq_gpio.c	/^struct zynq_platform_data {$/;"	s	file:
+zynqmp_gpio_def	zynq_gpio.c	/^static const struct zynq_platform_data zynqmp_gpio_def = {$/;"	v	typeref:struct:zynq_platform_data	file:
